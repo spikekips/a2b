@@ -126,16 +126,16 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
-		(uuid "08dd1e9c-5da1-44af-b281-3c5c24a11e70")
-		(at 127 132.08)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(uuid "0dd8e5fe-68fe-4ab4-93c1-81310f946fd8")
+		(at 149.86 116.84)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "REF2"
-			(at 0 -1.998 0)
+		(property "Reference" "F1+1"
+			(at 2.54 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "409450fd-991e-4f7c-bc2c-46fc0a75fcf4")
+			(uuid "29f6b220-8bca-484a-9f49-a8e16d9a83a1")
 			(effects
 				(font
 					(size 1 1)
@@ -144,9 +144,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "7299fc60-7942-4fe9-85a6-e8ecd4a1a0aa")
+			(uuid "2d9959cb-bb10-4ea3-9ef7-0a7a5ab51e9d")
 			(effects
 				(font
 					(size 1 1)
@@ -159,111 +159,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca840982-79b3-405a-8ecf-a3f88905df44")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42de9749-c49a-4e28-9bc6-796cbef135c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "06a3f283-c10c-4e66-afc1-255706d74e46")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "af7116e8-cf9a-4ee4-a438-51e8fb957f88")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "f94b300b-bce6-4312-8461-b267dbe416bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "f1380d7c-a539-4a8d-93e2-9cbca2d8bed5")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-		(layer "F.Cu")
-		(uuid "0dd8e5fe-68fe-4ab4-93c1-81310f946fd8")
-		(at 149.86 116.84)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
-		(tags "test point THT pad")
-		(property "Reference" "J7"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "65c98d10-e826-4176-a20e-faf782f14890")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "POS1"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "066f5b0d-0e37-4a6a-9d43-869e296c8d89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91b22df2-0b47-470f-bfa7-34c98946a48c")
+			(uuid "79d9f0e7-c18e-4ce3-8926-7a0182bc5c4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,7 +172,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02697478-2c36-4742-bce3-f6461176e315")
+			(uuid "487d2635-6296-4c67-9db3-1a27746d9efc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +193,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -308,7 +204,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -318,7 +214,7 @@
 			(uuid "07f86a48-b990-4774-b2c1-44518e9b0d7b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "ab230d95-a93f-47fb-b08e-d2f6ab824abd")
 			(effects
@@ -330,11 +226,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D1-K)")
+			(net "Net-(B1+1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "d876a6bd-660d-4745-817f-caca7311027d")
@@ -346,11 +242,11 @@
 		(uuid "159e862e-0721-4d87-8e6c-3a753b7f1046")
 		(at 153.773273 91.44 180)
 		(tags "ANT13SECQE ")
-		(property "Reference" "U1"
+		(property "Reference" "POWERSWITCH1"
 			(at 4.826 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "6428a909-cb51-410a-bc58-48c9a2ee0db7")
+			(uuid "7689e206-07e4-4a05-ad72-0dec1baed209")
 			(effects
 				(font
 					(size 1 1)
@@ -362,7 +258,7 @@
 			(at 4.826 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "52541fab-fa26-4d62-8585-1a04d3e01553")
+			(uuid "c7902c6d-6019-4611-9e89-48db3cdaa419")
 			(effects
 				(font
 					(size 1 1)
@@ -374,7 +270,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9bbc7a1-f39d-4ea7-8104-7db367f7fd28")
+			(uuid "35e15efd-fa6d-49c5-a96e-0088928e8ae7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +281,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "664cf19c-6051-4d7a-b313-da8fe4addf65")
+			(uuid "661a8b28-3d0d-46b5-a33a-3b95598adc96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,7 +471,7 @@
 			(drill 1.8542)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J1-PadPIN)")
+			(net "Net-(DC_IN1-PadPIN)")
 			(pinfunction "1_1")
 			(pintype "unspecified")
 			(uuid "b06f8f80-9e4b-42a3-9a2e-7fa3fcf57c40")
@@ -586,7 +482,7 @@
 			(drill 1.8542)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(R1-Pad1)")
+			(net "Net-(POWERSWITCH1-Pad2)")
 			(pinfunction "2_2")
 			(pintype "unspecified")
 			(uuid "a36f80ac-41b7-43bf-8ea3-84072fcb68a6")
@@ -597,128 +493,23 @@
 			(drill 1.8542)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-Pad3)")
+			(net "unconnected-(POWERSWITCH1-Pad3)")
 			(pinfunction "3_3")
 			(pintype "unspecified")
 			(uuid "c6a64778-4f56-44d7-bc00-22972476c592")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-		(layer "F.Cu")
-		(uuid "16a7379b-fbb5-4e8c-9af7-cf3e5daf7395")
-		(at 124.46 129.54)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
-		(tags "test point THT pad")
-		(property "Reference" "J2"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "9f53512a-08e2-4743-ba50-a3268b9d4319")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "40f8d37a-22ce-4c50-8889-07008b33c582")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "17025da8-e8f5-448f-a0e7-cae762b47c68")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06502205-b061-4019-9285-211d5997cb6a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "e20dbef6-b98c-4327-b553-6f29dc9dbd9e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "34b3c8c1-9776-48f4-838c-77c335cc4325")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "e5ce1d41-af8c-437c-b13d-de436e26f3bf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "ac84430c-66eb-4aab-bf19-92c62fa43a04")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "32c7579a-cd29-44fc-9d3c-f460b35e7846")
-		(at 167.268317 114.3)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(at 167.268317 116.84)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J11"
-			(at 0 -1.998 0)
+		(property "Reference" "R_OUT1"
+			(at 0 2.54 0)
 			(layer "F.SilkS")
-			(uuid "6190b362-27ea-4c77-9497-548adf265613")
+			(uuid "b14cb8ba-106c-4b5b-97b5-7f5b053a26a3")
 			(effects
 				(font
 					(size 1 1)
@@ -727,9 +518,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "560ce1a2-1e6f-4ca8-acf4-b9b5cead1e67")
+			(uuid "21daca89-f3f8-4462-95fa-2b6cca1ed289")
 			(effects
 				(font
 					(size 1 1)
@@ -742,7 +533,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fa4c5c6-2f66-426a-a2c7-c0059de1dc8e")
+			(uuid "fe452c4a-8b3f-46b8-b6c5-9ee812edcdf6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -755,7 +546,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a811482d-1ad4-40fe-81c2-1fd3258ab955")
+			(uuid "2e4d84a8-98fd-4726-bbe7-aba896757eec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,7 +567,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -787,7 +578,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -797,7 +588,7 @@
 			(uuid "6bf01f21-4187-4194-891d-40383c2b6af0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "4e66f4cb-71f5-45cf-8294-d61b5a7e5dbc")
 			(effects
@@ -809,11 +600,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J11-Pin_1)")
+			(net "Net-(B_R_OUT1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "74faba9f-fa80-4a61-9cbf-8d82577ed703")
@@ -829,7 +620,7 @@
 		(property "Reference" "D1"
 			(at 1.27 -3.96 90)
 			(layer "F.SilkS")
-			(uuid "60d7d1ba-17ba-457b-82b6-bb4982b613ec")
+			(uuid "d9d3b5b1-6995-40d6-aa6b-c47c6e6fa404")
 			(effects
 				(font
 					(size 1 1)
@@ -840,7 +631,7 @@
 		(property "Value" "LED"
 			(at 1.27 3.96 90)
 			(layer "F.Fab")
-			(uuid "50e9cad9-7734-4e7c-9d10-7c262482c0bd")
+			(uuid "6ae1fefe-540d-483f-bca0-88cb6c08338b")
 			(effects
 				(font
 					(size 1 1)
@@ -852,7 +643,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa55e55f-3166-4dd0-b8dc-6623d1d4cf58")
+			(uuid "b23a161f-9772-4989-84dd-aab63975b85d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +654,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "994b65ff-5125-4a60-a44a-1eba3d014092")
+			(uuid "b13933e1-3639-4180-bc8d-7bb51b2b5536")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +807,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D1-K)")
+			(net "Net-(B1+1-Pin_1)")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "98e93467-ae97-4992-ae4c-0b25bde210d0")
@@ -1045,16 +836,16 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "441ec10a-b85b-4af2-8086-e42bb4494578")
-		(at 130.701678 114.3)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(at 130.701678 116.84)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J14"
-			(at 0 -1.998 0)
+		(property "Reference" "R_IN1"
+			(at 0 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "beebcab1-9f64-469f-865c-558dcac19b53")
+			(uuid "b0890793-d3da-4036-8cbb-4dc9bbd229c9")
 			(effects
 				(font
 					(size 1 1)
@@ -1063,9 +854,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "bb7bda37-3448-49ad-998d-89fc728483f2")
+			(uuid "fd012060-0cee-4250-9653-359318a1e58f")
 			(effects
 				(font
 					(size 1 1)
@@ -1078,7 +869,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1e94379-5bca-48ed-8d58-31c8451ba279")
+			(uuid "312ba3d9-38a0-477c-8ff4-71ac17bdf458")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +882,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70503b9e-f9aa-43eb-b40f-4348829ac6c3")
+			(uuid "3fd85ceb-eded-4f91-8eaf-53ca47ce6f75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +903,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1123,7 +914,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1133,7 +924,7 @@
 			(uuid "5ab5da01-1dee-4537-a0c2-5a0039b012be")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "0b13016d-f310-4ee3-a2f2-eb66930b5ecb")
 			(effects
@@ -1145,11 +936,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J14-Pin_1)")
+			(net "Net-(B_R_IN1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "5b390366-bd25-42d0-9938-463159390623")
@@ -1161,11 +952,11 @@
 		(uuid "48d16d6c-2185-4c4f-81d9-d727e1ad54b7")
 		(at 125.998173 106.430002 90)
 		(tags "ANT21SECQE ")
-		(property "Reference" "SW1"
+		(property "Reference" "AUDIO_IN_SW1"
 			(at 2.415 4.700001 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f80a19e9-503b-4dba-be3c-f36425356b48")
+			(uuid "3e496361-8798-45fe-a1ac-b6052ea50371")
 			(effects
 				(font
 					(size 1 1)
@@ -1177,7 +968,7 @@
 			(at 2.415 4.700001 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ff25d1de-2fc4-410e-81fa-ed86c9e8b77d")
+			(uuid "5477240c-7d96-4b78-a72b-37b79cc4ee16")
 			(effects
 				(font
 					(size 1 1)
@@ -1189,7 +980,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "337f7019-037a-4aa5-8167-57604dc8b66d")
+			(uuid "bfeb1d4f-28af-40bb-ab39-d085cb455444")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +991,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6fe17cf-c9f0-4b1d-ad9e-0a5b5c364b42")
+			(uuid "cb43b829-974c-41c5-8598-a181be026a29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1181,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J13-Pin_1)")
+			(net "Net-(B_T_IN1-Pin_1)")
 			(pinfunction "1_1")
 			(pintype "unspecified")
 			(uuid "034d0f92-3306-4458-93c6-7ce00d680187")
@@ -1401,7 +1192,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-PadT)")
+			(net "Net-(AUDIO_IN1-PadT)")
 			(pinfunction "2_2")
 			(pintype "unspecified")
 			(uuid "c5b39267-badb-47a2-9811-a809122e9382")
@@ -1412,7 +1203,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(AUDIO_IN1-PadRN)")
 			(pinfunction "3_3")
 			(pintype "unspecified")
 			(uuid "1bdb0329-9fa6-4877-9ac2-0bcd97441407")
@@ -1423,7 +1214,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J14-Pin_1)")
+			(net "Net-(B_R_IN1-Pin_1)")
 			(pinfunction "4_4")
 			(pintype "unspecified")
 			(uuid "1ab716d0-3d98-45e2-85bd-15ef6aa051ba")
@@ -1434,7 +1225,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-PadR)")
+			(net "Net-(AUDIO_IN1-PadR)")
 			(pinfunction "5_5")
 			(pintype "unspecified")
 			(uuid "51d3ca4e-b8e9-4c1b-a50d-6b1feef0ecf1")
@@ -1445,23 +1236,23 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(AUDIO_IN1-PadRN)")
 			(pinfunction "6_6")
 			(pintype "unspecified")
 			(uuid "48655f13-ed63-4aa4-89ae-d412cfb843c2")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
-		(uuid "4ed2f029-28bd-4f7f-a94b-f12152ae2b50")
-		(at 128.161678 114.3)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(uuid "4bc30e3b-5838-4af1-af2c-140febd34a02")
+		(at 127 132.08)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J13"
-			(at 0 -1.998 0)
+		(property "Reference" "B1+1"
+			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "81088318-31a4-46de-af46-9016aa4d6a01")
+			(uuid "46adbe94-ff1c-466e-a7b0-478bebe0f6ed")
 			(effects
 				(font
 					(size 1 1)
@@ -1470,9 +1261,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "53598e76-fe1a-4634-84b1-dd9ef663bc96")
+			(uuid "9eb6ee32-6d35-4361-b305-d9fc4c28b2f0")
 			(effects
 				(font
 					(size 1 1)
@@ -1485,7 +1276,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8d36a22-9566-4471-9264-5205afde9086")
+			(uuid "3df1468b-8012-4127-90cd-16a83c92e07e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1289,118 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d3b366a-b411-401c-9ab6-3b37dc285635")
+			(uuid "6ddd3b51-69d7-4141-9459-46b942e4b333")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/dd3dae61-b81b-489b-8dbb-985ba41c457f")
+		(sheetname "/")
+		(sheetfile "a2b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "8ccd6a6d-b564-4a28-9c07-74a3db3b4d24")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fda41c21-06d3-4c2c-a802-491f8a69b027")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "03c064db-1cdf-4067-9bff-42271e12c12e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(B1+1-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "cbe7f5f0-3f29-4faa-adb2-b332b697b923")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "4ed2f029-28bd-4f7f-a94b-f12152ae2b50")
+		(at 128.161678 116.84)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "T_IN1"
+			(at -1.161678 2.54 0)
+			(layer "F.SilkS")
+			(uuid "b98c7d89-fa8b-4925-a01e-da858140bc80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "e547a3c5-d2cb-473a-9f1e-2e2d9a2743cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a030ebea-6766-4e79-9dcc-a7360b2bc21c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97f11b22-0107-43fc-8ae4-1a2602d63de4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1421,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1530,7 +1432,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1540,7 +1442,7 @@
 			(uuid "a177dcd1-f0da-4286-b741-473baa21c374")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "6c5ff2bc-5953-4560-957d-5046b97b421e")
 			(effects
@@ -1552,27 +1454,27 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J13-Pin_1)")
+			(net "Net-(B_T_IN1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "edb02574-d446-427a-a1fa-31e723718c4f")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "521cfa04-4e65-49f0-bfbe-8fcb4ad21b65")
-		(at 133.241678 114.3)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(at 133.241678 116.84)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J15"
-			(at 0 -1.998 0)
+		(property "Reference" "S_IN1"
+			(at 1.378322 2.54 0)
 			(layer "F.SilkS")
-			(uuid "604b03f0-299a-449e-8fde-4409b44ba668")
+			(uuid "720c0073-98b4-4cf1-9506-96e331f95c1d")
 			(effects
 				(font
 					(size 1 1)
@@ -1581,9 +1483,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "baa3e1f9-162a-4758-99be-fc21e7c8aadd")
+			(uuid "f3ad6cb4-1c89-4c67-bac4-5a5df43bf921")
 			(effects
 				(font
 					(size 1 1)
@@ -1596,7 +1498,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c874fc41-c44b-45ba-b1c8-9d39584215a4")
+			(uuid "7ab5eab4-7cd3-473b-b9e0-1dd6498342c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1511,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f381ec7e-7b86-428a-9107-0f13452aa7e8")
+			(uuid "78393494-0dc7-46cc-8164-de12aa6f2014")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1532,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1641,7 +1543,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1651,7 +1553,7 @@
 			(uuid "caa1ab7e-83d9-4308-8576-6172ca622a5c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "ecf75524-b9dd-4b40-a861-90af3b332c4d")
 			(effects
@@ -1663,11 +1565,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J15-Pin_1)")
+			(net "Net-(B_S_IN1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "e9df3fd3-ad45-4550-a030-76b003f85e19")
@@ -1679,11 +1581,11 @@
 		(uuid "54b2df0d-cd92-442f-8c9d-a86737898cf3")
 		(at 162.571628 106.430002 90)
 		(tags "ANT21SECQE ")
-		(property "Reference" "SW2"
+		(property "Reference" "AUDIO_OUT_SW1"
 			(at 2.415 4.700001 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "db66cdea-3aa6-453e-a823-a5d93cd5aadb")
+			(uuid "714370e6-9a2c-47f6-9359-c71378e63f82")
 			(effects
 				(font
 					(size 1 1)
@@ -1695,7 +1597,7 @@
 			(at 2.415 4.700001 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4332cdf9-8fca-4772-9f3a-6a4e2bbe2d03")
+			(uuid "d80c3c8e-4888-4a89-b41d-e5cf07b09fa2")
 			(effects
 				(font
 					(size 1 1)
@@ -1707,7 +1609,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ec243e8-e42d-4d17-ac7a-f0ceca0fff06")
+			(uuid "2b391456-2bfb-4eec-9160-1b497845c4fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1620,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da16e77f-9c89-4405-a80e-58fec789a923")
+			(uuid "5a0bf9f2-de95-43be-89c1-37aa8ba6705f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1810,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(B_T_OUT1-Pin_1)")
 			(pinfunction "1_1")
 			(pintype "unspecified")
 			(uuid "9e219e30-7b32-493a-8579-1bb78c482f69")
@@ -1919,7 +1821,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J5-PadR)")
+			(net "Net-(AUDIO_OUT1-PadT)")
 			(pinfunction "2_2")
 			(pintype "unspecified")
 			(uuid "02ac6a1a-4a7f-4eb3-ad0b-f4809b396a57")
@@ -1930,7 +1832,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J11-Pin_1)")
+			(net "Net-(B_S_OUT1-Pin_1)")
 			(pinfunction "3_3")
 			(pintype "unspecified")
 			(uuid "24d5d0aa-cac6-4cca-b51a-f7bfe2f80228")
@@ -1941,7 +1843,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(B_R_OUT1-Pin_1)")
 			(pinfunction "4_4")
 			(pintype "unspecified")
 			(uuid "ae5df366-35e7-4302-bd5f-5670336b3a61")
@@ -1952,7 +1854,7 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J5-PadT)")
+			(net "Net-(AUDIO_OUT1-PadR)")
 			(pinfunction "5_5")
 			(pintype "unspecified")
 			(uuid "fd011231-fd08-4f13-86b5-86ee37f713fb")
@@ -1963,23 +1865,23 @@
 			(drill 1.524)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J12-Pin_1)")
+			(net "Net-(B_S_OUT1-Pin_1)")
 			(pinfunction "6_6")
 			(pintype "unspecified")
 			(uuid "c39da0e4-58ec-4a87-8c26-2997485db7f0")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
-		(uuid "67d5de48-d65d-4e6f-846a-968ba09055f4")
-		(at 170.18 132.08)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(uuid "8394fc69-b8e8-4126-90d0-eb9ec7bd4622")
+		(at 147.32 116.84)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "REF3"
-			(at 0 -1.998 0)
+		(property "Reference" "F1-1"
+			(at -2.54 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "4237aec6-a3cf-4090-aec1-3739733e896a")
+			(uuid "395ac1d4-c37e-4b49-a819-8432bf96946c")
 			(effects
 				(font
 					(size 1 1)
@@ -1988,9 +1890,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "238e0521-affc-4f30-a77d-d637080b4dba")
+			(uuid "4228a97f-cbc1-4048-9be8-f136345feff0")
 			(effects
 				(font
 					(size 1 1)
@@ -2003,111 +1905,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91950953-b737-429f-92d4-fee66ffb5ed8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95fed124-883e-4c40-8b4d-35ddf25dd220")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "4d598ffa-cf0d-4654-aefd-ea8c0b89681b")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "86344573-3634-499a-afa1-cba653af564c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "20305e37-19c4-4f80-a88b-d420167160c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "51ddcd92-7e79-41da-b89e-dca49bb30a67")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-		(layer "F.Cu")
-		(uuid "8394fc69-b8e8-4126-90d0-eb9ec7bd4622")
-		(at 147.32 116.84)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
-		(tags "test point THT pad")
-		(property "Reference" "J6"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "1b4cfe31-4156-4909-98ec-9f2c935cda8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "NEG1"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "28c12d68-28b8-4dc1-99c9-d1d9445eb4c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3b14ec6-481a-4c04-b034-52f81b3435b2")
+			(uuid "b5cf950e-2125-4da7-a984-ffcc99cb22a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +1918,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d767ab5c-f5d3-4d0c-b6c6-aabaeaa4404c")
+			(uuid "6121538e-a8d2-499b-8962-2fe955224b22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +1939,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2152,7 +1950,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2162,7 +1960,7 @@
 			(uuid "d1923ff3-6642-4cfa-815d-eda9a3dc52cf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "543eaa4b-42cb-4fec-b5cb-99792d76ea6d")
 			(effects
@@ -2174,11 +1972,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(B1-1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "3512f9d8-bce6-4cbd-9485-76201c643f67")
@@ -2191,10 +1989,10 @@
 		(at 158.876728 89.165 90)
 		(descr "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins, https://www.neutrik.com/en/product/nmj6hcd2")
 		(tags "neutrik jack m")
-		(property "Reference" "J5"
+		(property "Reference" "AUDIO_OUT1"
 			(at 6.35 -3 90)
 			(layer "F.SilkS")
-			(uuid "0eac1050-5cc5-41e1-8285-b1f785d632fb")
+			(uuid "b457ed97-ecda-4cb7-9d51-6d30dffda584")
 			(effects
 				(font
 					(size 1 1)
@@ -2205,7 +2003,7 @@
 		(property "Value" "NMJ6HCD2"
 			(at 6.35 19 90)
 			(layer "F.Fab")
-			(uuid "9a178ca3-8823-466c-980a-87b8241c9e26")
+			(uuid "a7f793ff-3296-4b9a-b3c4-c161a99f67a0")
 			(effects
 				(font
 					(size 1 1)
@@ -2218,7 +2016,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd57724e-455d-473f-b2c2-19ee007aa5ca")
+			(uuid "de512014-7886-4b52-b3da-1f757a2f7738")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2029,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "44bbb530-eeaf-436c-82eb-3d9253bab763")
+			(uuid "0a321abf-d352-41b0-8be7-643ef590945c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2386,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J5-PadR)")
+			(net "Net-(AUDIO_OUT1-PadR)")
 			(pintype "passive")
 			(uuid "24a5c34d-7172-4cfd-9cb6-240beef95819")
 		)
@@ -2598,7 +2396,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(B_S_OUT1-Pin_1)")
 			(pintype "passive")
 			(uuid "236157f0-bf29-40d2-82a4-f25766606125")
 		)
@@ -2608,7 +2406,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J10-Pin_1)")
+			(net "Net-(B_S_OUT1-Pin_1)")
 			(pintype "passive")
 			(uuid "d9de57b4-94a5-41ba-96a9-b3f7d377cb81")
 		)
@@ -2618,7 +2416,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(B_S_OUT1-Pin_1)")
 			(pintype "passive")
 			(uuid "35d1f374-22c4-4d52-a369-842d3a49d552")
 		)
@@ -2628,7 +2426,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J5-PadT)")
+			(net "Net-(AUDIO_OUT1-PadT)")
 			(pintype "passive")
 			(uuid "2c5e44c2-7654-49d3-a1ce-4e22490079f0")
 		)
@@ -2638,7 +2436,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(B_S_OUT1-Pin_1)")
 			(pintype "passive")
 			(uuid "735f8220-52ae-42c6-813f-0823b7020b15")
 		)
@@ -2655,16 +2453,16 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "91aae931-3ce3-4ab2-9084-7eff81f9fc3f")
 		(at 144.78 127)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J16"
-			(at 0 -1.998 0)
+		(property "Reference" "B_T_IN1"
+			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "3537baac-da88-4888-81b7-fc1d46ec6af6")
+			(uuid "66538bf4-f310-412b-91ed-2c5fcf9471d7")
 			(effects
 				(font
 					(size 1 1)
@@ -2673,9 +2471,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "c62827d2-309b-446b-a7a0-3416ffd5d107")
+			(uuid "57580c1c-fd0a-440c-b171-af9f3c5f3d30")
 			(effects
 				(font
 					(size 1 1)
@@ -2688,7 +2486,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e11f371b-898b-4a58-9314-e731be7c947e")
+			(uuid "01e55fad-9382-4e62-afef-19958549bde9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2499,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e55b3d72-886d-43c0-ba4a-870d3c7fe7d5")
+			(uuid "ed7d0932-b580-4775-a7ce-2133a14512ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2520,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2733,7 +2531,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2743,7 +2541,7 @@
 			(uuid "40f7e8e2-5a99-4457-9673-def84d056f91")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "a95dc0b1-3796-4cf5-824c-ec7f9fb6008f")
 			(effects
@@ -2755,27 +2553,27 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J13-Pin_1)")
+			(net "Net-(B_T_IN1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "e67411e0-9590-47a4-be6d-dcce92dfeb89")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "986f3ff3-c64c-4fc1-af2c-0e3d9731ae13")
 		(at 152.4 127)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J19"
-			(at 0 -1.998 0)
+		(property "Reference" "B_T_OUT1"
+			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "07132803-a780-404a-b266-b447aff95cdd")
+			(uuid "941b45b2-a752-415f-869c-47ac8362b756")
 			(effects
 				(font
 					(size 1 1)
@@ -2784,9 +2582,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "5659117b-c327-42cb-a5c2-4ca98028489e")
+			(uuid "dc15e30d-541a-44b1-9f80-d5b310a51809")
 			(effects
 				(font
 					(size 1 1)
@@ -2799,7 +2597,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8946d540-6eb0-4db0-93a3-339fa52cd740")
+			(uuid "32f90d42-f5ae-4ed0-969e-17c32af6b87d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2610,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "169f94b3-cedb-4b04-aadb-6b9b85c05f5c")
+			(uuid "b68c7133-4402-4eec-bdb3-c418a0eee35c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2631,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2844,7 +2642,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2854,7 +2652,7 @@
 			(uuid "f95bd130-c8a9-45dd-a1a4-e844e8a39e7b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "f719b174-471d-4957-81de-8e6831085514")
 			(effects
@@ -2866,27 +2664,278 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J10-Pin_1)")
+			(net "Net-(B_T_OUT1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "c868726c-7550-456d-a137-1a08bf2bcd7a")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "M20-9990246:CONN2_M20-999_1x2_HRW"
+		(layer "F.Cu")
+		(uuid "9c690352-1638-42b9-8786-2716a921368f")
+		(at 4.3942 2.54)
+		(tags "M20-9990246 ")
+		(property "Reference" "J1"
+			(at -1.27 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e4d9ea7c-fe4a-4a2f-b099-88a488cb3d4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "M20-9990246"
+			(at -1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5d7f8ab2-f97a-4032-b20e-49544f7e6c99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "M20-9990246"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b8bade9-b832-4261-be66-9ab54cec5f3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a564121-dec1-47e4-903b-69d343a1b2f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "CONN2_M20-999_1x2_HRW")
+		(sheetname "/")
+		(sheetfile "a2b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -4.191 -1.4478)
+			(end -4.191 1.4478)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "304ebe7b-55c9-4bad-9aae-2b11b30fd21c")
+		)
+		(fp_line
+			(start -4.191 1.4478)
+			(end 1.651 1.4478)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb5efa2b-a96c-4085-9dec-91fc65c6343a")
+		)
+		(fp_line
+			(start 1.651 -1.4478)
+			(end -4.191 -1.4478)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0d48d8e7-010d-444d-bcb7-006fedec04ad")
+		)
+		(fp_line
+			(start 1.651 1.4478)
+			(end 1.651 -1.4478)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9fce7c8b-5799-4589-8b1a-8875760ade89")
+		)
+		(fp_circle
+			(center 2.286 0)
+			(end 2.667 0)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "06964f14-6dc2-4fb1-a6a5-f3de29768770")
+		)
+		(fp_circle
+			(center 2.286 0)
+			(end 2.667 0)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "4ecb95a5-72a7-47eb-a013-e8db9bf54dd5")
+		)
+		(fp_line
+			(start -4.318 -1.5748)
+			(end -4.318 1.5748)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b504530-8d78-4486-87a9-e654570885d4")
+		)
+		(fp_line
+			(start -4.318 1.5748)
+			(end 1.778 1.5748)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "822895c7-1157-48c8-94a9-a539a07d7c91")
+		)
+		(fp_line
+			(start 1.778 -1.5748)
+			(end -4.318 -1.5748)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7a2c96ad-52ac-4522-b1fb-e0fd3538da66")
+		)
+		(fp_line
+			(start 1.778 1.5748)
+			(end 1.778 -1.5748)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "990e0d94-356d-4b52-8862-d87f3b52c2a8")
+		)
+		(fp_line
+			(start -4.064 -1.3208)
+			(end -4.064 1.3208)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c08a058a-a807-4256-b85f-6db906ef8a2c")
+		)
+		(fp_line
+			(start -4.064 1.3208)
+			(end 1.524 1.3208)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cb327186-edc1-46f1-b445-76c332526f5f")
+		)
+		(fp_line
+			(start 1.524 -1.3208)
+			(end -4.064 -1.3208)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2f9a0d73-a916-4e66-8dab-31a347d74199")
+		)
+		(fp_line
+			(start 1.524 1.3208)
+			(end 1.524 -1.3208)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9e5cec55-dbca-445d-ad86-c3ffe4fdde65")
+		)
+		(fp_circle
+			(center 0 -1.905)
+			(end 0.381 -1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3486765b-aa28-40e4-8257-13f430230e72")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "12cb9b58-e8f7-4d52-a356-b8d45413670c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4224 1.4224)
+			(drill 0.9144)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(J1-Pad1)")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "fae12f2c-446d-448a-ac77-29bbcf70f34b")
+		)
+		(pad "2" thru_hole circle
+			(at -2.54 0)
+			(size 1.4224 1.4224)
+			(drill 0.9144)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(J1-Pad2)")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "f43c64fe-1d83-48bf-a776-2c74b1362e2c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "aa1c34c9-dffc-44d4-b410-408c9634b717")
-		(at 169.808317 114.3)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(at 169.808317 116.84)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J12"
-			(at 0 -1.998 0)
+		(property "Reference" "S_OUT1"
+			(at 2.911683 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "8ffac75e-3b72-4a46-a818-2934d7d69d43")
+			(uuid "5bdfa659-6113-4886-aae9-dbcd292b057f")
 			(effects
 				(font
 					(size 1 1)
@@ -2895,9 +2944,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "050f0f77-3c01-49b8-9b02-d7a117f0430a")
+			(uuid "8b11491e-1c44-423c-9279-bf208f93c104")
 			(effects
 				(font
 					(size 1 1)
@@ -2910,7 +2959,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8dc85fd6-de02-42b0-a16c-8c9ecfada918")
+			(uuid "a1f96293-f25b-498c-8b0b-69b946f0a57b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2972,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c90a02b2-7d3c-4180-8730-049cc5ff118c")
+			(uuid "828fd598-62ee-4775-899a-19a3cfefcf9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +2993,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2955,7 +3004,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2965,7 +3014,7 @@
 			(uuid "38a78a88-35f2-4418-8290-f6d9c766692e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "28216a3b-9ae0-47f5-86cb-07e3ef927a69")
 			(effects
@@ -2977,224 +3026,14 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J12-Pin_1)")
+			(net "Net-(B_S_OUT1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "e7822e22-644d-45b5-92b2-1faef3b8282a")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-		(layer "F.Cu")
-		(uuid "ac798531-ec23-4948-8a07-dc272ebc8856")
-		(at 127 129.54)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
-		(tags "test point THT pad")
-		(property "Reference" "J4"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "ee5b6854-c5bf-48dc-b864-06b481f3e892")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "d841ce49-b7ef-4ae8-a4ef-383b6223262a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94c3bc07-50f9-42fe-9584-098581007814")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "59a0f716-3434-45d3-afcb-8b79bb6b2d18")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "ca2f10e8-6b3c-49d0-a1fb-ddcccbb57633")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "efed6e10-1e9e-4e72-8f01-7ecfecb6fe77")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "9eeba6d6-25a5-4301-93b8-e8e7f8243df2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(D1-K)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "1f8b4046-6924-476a-a60b-fb26a8269a2f")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-		(layer "F.Cu")
-		(uuid "ad9f5236-be44-480e-9bc3-dec357a9be0d")
-		(at 172.72 129.54)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
-		(tags "test point THT pad")
-		(property "Reference" "J1"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "2405999c-382f-4282-9761-6a2989d24a14")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "922e0308-699c-4a21-a7a0-89ec19583a3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e82c1c40-8bb8-4a24-92d7-110da4412940")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8fa47ab3-d1fc-4d8d-ba01-cd9d88edf66f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "e1cce45c-eb3f-484a-8cba-595425a73ba1")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "20c01883-b38e-4c7e-82d6-edce3e0ccbaf")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "1f4669de-b01a-43e8-a65a-4a118a5b0580")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(D1-K)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "6c9878fa-74b9-4a54-a715-db0040eec80b")
 		)
 		(embedded_fonts no)
 	)
@@ -3207,7 +3046,7 @@
 		(property "Reference" "R1"
 			(at 5.08 -2.37 90)
 			(layer "F.SilkS")
-			(uuid "6c5a178c-01bb-43ba-8e01-5337262a0fcc")
+			(uuid "fa90a3f2-21fb-41d6-a7db-37b8884e5d05")
 			(effects
 				(font
 					(size 1 1)
@@ -3218,7 +3057,7 @@
 		(property "Value" "1k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
-			(uuid "250613e9-ffe5-4fb0-b568-ccad0457bdd8")
+			(uuid "e4a0c0d0-fe51-4199-8d79-66e3c31fc6ab")
 			(effects
 				(font
 					(size 1 1)
@@ -3230,7 +3069,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d398b8df-3ce2-4f0d-b259-f7f96a41ebf8")
+			(uuid "9241e00c-ee90-4329-a2e9-3bc046a7e333")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3080,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9068152c-730c-4f2a-bcbe-c8bb573e4c38")
+			(uuid "7706d977-1f68-4730-a651-eede2cfa6101")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3201,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(R1-Pad1)")
+			(net "Net-(POWERSWITCH1-Pad2)")
 			(pintype "passive")
 			(uuid "04ea93f3-64b7-48a6-99cc-2783dd8814b5")
 		)
@@ -3389,224 +3228,16 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-		(layer "F.Cu")
-		(uuid "b2d28425-8dba-4a87-9ff2-c2ddbbf3723d")
-		(at 124.46 132.08)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
-		(tags "test point THT pad")
-		(property "Reference" "REF1"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "b9958fa4-2b2d-4e00-a4bd-47e483c812c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "e8113cdc-3c9e-4a8b-9d6c-9368c7c906fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0781282d-be82-4e26-b879-b29417d0c97d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "280bcef0-46a2-4f60-9501-de43728f5740")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "cdce383a-960d-4f6a-9365-d50ea25d9aed")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a2ae6d93-1aae-4cfd-8709-d741eb74c1b2")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "7799eb41-7179-4df0-b3f2-3d28604bcbac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "743c0fa3-766f-4bb9-b174-db430f5c64cc")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-		(layer "F.Cu")
-		(uuid "b3ac467a-5d5d-49fe-874d-316e8a34c796")
-		(at 172.72 132.08)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
-		(tags "test point THT pad")
-		(property "Reference" "REF4"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "8cdd4ab8-7a4d-4d70-b943-257e61c22dcd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "156c1538-c053-45b5-bad0-43cd0ab8e2ac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50d23514-d254-449c-866d-bd4b13327df6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "749a0406-38aa-42f2-9dd2-4462dca221ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "bb16247c-63b4-44c6-bac2-bb66989e79e3")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "e66e1c8a-9412-4800-b55b-13a3ea4bddcc")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "1581ade7-9546-46ca-925e-425f28897936")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "a94c9580-80ad-4bf9-84f6-3f8821cedcef")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "b509a522-0812-4f9f-b3ca-b88215c332d0")
 		(at 152.4 132.08)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J21"
-			(at 0 -1.998 0)
+		(property "Reference" "B_S_OUT1"
+			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "19f440f3-ab0b-4fa9-a306-fdf99ff41397")
+			(uuid "3a3a4fea-4063-46ab-bcec-c341fa3b1622")
 			(effects
 				(font
 					(size 1 1)
@@ -3615,9 +3246,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "335a4e0a-c6fd-408b-8b60-d9c2945844d0")
+			(uuid "0e763da7-28c6-45a1-80f5-1dd3ed522e3c")
 			(effects
 				(font
 					(size 1 1)
@@ -3630,7 +3261,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8916426-cc21-4b44-8dc4-99a635e37200")
+			(uuid "09628f9a-e28f-4122-a5f1-b21b40ae83fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3274,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "128bcb3d-e03e-489f-8deb-5d34b92a6c1e")
+			(uuid "442ea627-ae97-4236-b7ca-e2d97fcaaa1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3295,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3675,7 +3306,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3685,7 +3316,7 @@
 			(uuid "92218f3d-9b08-476b-ab75-c5e2cdfa9ab4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "13850bbf-2280-491b-8f16-8d1c23029b38")
 			(effects
@@ -3697,27 +3328,27 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J12-Pin_1)")
+			(net "Net-(B_S_OUT1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "a28dde80-846d-4328-bf12-42bf352e44b7")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
-		(uuid "b7d19cff-1af8-4029-af26-ce1fd2de43f3")
-		(at 144.78 132.08)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(uuid "b77d68dc-85a8-484f-9ecb-12ded3629e92")
+		(at 172.72 132.08)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J18"
-			(at 0 -1.998 0)
+		(property "Reference" "B2+1"
+			(at 0 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "82ae0844-c268-435c-95fd-0ad18d5b05f8")
+			(uuid "9b927c9a-d2e6-4cc8-9050-3c411475b16f")
 			(effects
 				(font
 					(size 1 1)
@@ -3726,9 +3357,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "af58c57c-631a-41bb-b092-8337b38c38a5")
+			(uuid "7d4f1614-3848-4b2f-817d-a66dc4be2977")
 			(effects
 				(font
 					(size 1 1)
@@ -3741,7 +3372,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21b22b94-ab8b-454a-968a-026c7e7cfdc8")
+			(uuid "f86e3702-87bf-446d-8018-1374ec2aafd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3385,118 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9fbc0a6-30eb-42fc-a656-20f27ae8ce3d")
+			(uuid "48aff2e9-b2bf-4133-b3a6-93a616518032")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/109a1974-f7ba-465a-ae7c-41f4da1c8cd0")
+		(sheetname "/")
+		(sheetfile "a2b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "8c3a9337-41d3-4ba0-b9cc-c8c357e61363")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3ef44636-b1da-4249-9ab9-6a17110bedf8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "d8b059ae-321b-4259-8eef-da0ff823830f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(B1+1-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "a78fd18b-722f-486b-8cee-16368cb0c295")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "b7d19cff-1af8-4029-af26-ce1fd2de43f3")
+		(at 144.78 132.08)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "B_S_IN1"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(uuid "a7a5ce6b-e093-4300-87eb-f8ad8afda6d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "87d31f91-9f0b-4310-9db6-f05153bcff8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a20754b-67d7-4496-b6e1-3e0d60db214d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d51b3183-4252-4b8f-884b-305f00c38d5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3517,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3786,7 +3528,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3796,7 +3538,7 @@
 			(uuid "5000c7f0-8cc2-46b5-a196-61aafd2fa7e7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "2e426324-5972-4f3e-8f30-3a45a8c0f857")
 			(effects
@@ -3808,11 +3550,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J15-Pin_1)")
+			(net "Net-(B_S_IN1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "1562e74a-f51b-449d-9a64-dec03d47e1b8")
@@ -3823,10 +3565,10 @@
 		(layer "F.Cu")
 		(uuid "ba5c6162-dac3-4d24-bc2b-73d668b018c7")
 		(at 148.693273 76.705 180)
-		(property "Reference" "SWITCH"
+		(property "Reference" "DC_IN1"
 			(at -1.325 -10.135 0)
 			(layer "F.SilkS")
-			(uuid "3da8adc8-6710-45d6-89cb-a76e991ef428")
+			(uuid "35857976-535c-4202-8b6e-747d3ccddc77")
 			(effects
 				(font
 					(size 1 1)
@@ -3837,7 +3579,7 @@
 		(property "Value" "RAPC722X"
 			(at 8.2 -8.635 0)
 			(layer "F.Fab")
-			(uuid "80f80fe4-0515-4bfb-a377-a5821aa97d69")
+			(uuid "b5b4ab6e-014f-429c-9bad-91b48238fd08")
 			(effects
 				(font
 					(size 1 1)
@@ -3849,7 +3591,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b03f1a4-a7d0-4ca6-8d29-91178db6b211")
+			(uuid "b040c24b-8368-44ed-ad50-8663a5f4a0c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3602,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f5a61c1-b2e3-45e1-94b5-d1a8b633b074")
+			(uuid "7a03947e-6606-4a32-9c94-e822e392cfc3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +3858,7 @@
 			(drill oval 3.56 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J1-PadPIN)")
+			(net "Net-(DC_IN1-PadPIN)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "64992769-a9bd-4ce8-9be4-2bb57c9d3b31")
@@ -4127,7 +3869,7 @@
 			(drill oval 0.76 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J1-PadSHUNT)")
+			(net "unconnected-(DC_IN1-PadSHUNT)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "61529753-cb2a-49f5-a76f-59a0ce3cfba6")
@@ -4138,23 +3880,23 @@
 			(drill oval 3.05 0.76)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(B1-1-Pin_1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "039508e8-7a6e-4752-a53c-bd4620a3c01d")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
-		(uuid "c730c2e4-4a41-4bcc-b353-ca1a4c22e67a")
-		(at 152.4 129.54)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(uuid "c12272e8-9175-43d1-a5c5-32c20797a07b")
+		(at 170.18 132.08)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J20"
-			(at 0 -1.998 0)
+		(property "Reference" "B2-1"
+			(at 0 -5.08 0)
 			(layer "F.SilkS")
-			(uuid "30191863-f2d9-4327-8e4f-452ad231bafd")
+			(uuid "004941fb-89c7-4511-aae6-09ca703041da")
 			(effects
 				(font
 					(size 1 1)
@@ -4163,9 +3905,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "e7655ad2-0be7-4a6e-a5af-ab434a14b0c1")
+			(uuid "03340b58-43b1-46fb-93cd-938d4a2dd075")
 			(effects
 				(font
 					(size 1 1)
@@ -4178,7 +3920,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f78fa48-35ca-42ae-9f27-a88be8009525")
+			(uuid "25a7addb-1dca-4ded-a58e-50c8135fc5e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +3933,118 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23500bbc-6d3a-4624-87cc-c8ee7efb2f26")
+			(uuid "8fce250a-34d2-49b5-9581-3c78612d8dcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/5f418111-8e6b-49e5-9f24-6a2f743a6554")
+		(sheetname "/")
+		(sheetfile "a2b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "30602778-4a5a-47b9-b568-d174f2d46a35")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "06264932-f12c-4f79-9e5e-ccc2445d74f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "d137ce32-255b-487a-9da6-a8cdf513c6f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(B1-1-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "69a4856f-00ab-4239-85f0-0c8f998ae34b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "c730c2e4-4a41-4bcc-b353-ca1a4c22e67a")
+		(at 152.4 129.54)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "B_R_OUT1"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(uuid "5a10c533-f4f4-4992-adff-ab2aeb5bb103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "8fd9fa78-b555-4e02-9df6-d3f78ce89879")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6a68e9f-2913-4308-87ff-a2eaef343e14")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b074f1b-9d4b-4de0-95de-7e4e8456bb3e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4065,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4223,7 +4076,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4233,7 +4086,7 @@
 			(uuid "bf270cc8-a99c-4367-a83a-a124248d74b6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "7575e7fb-69ec-41c7-b338-a9185b7557b2")
 			(effects
@@ -4245,27 +4098,27 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J11-Pin_1)")
+			(net "Net-(B_R_OUT1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "76c5313a-74cd-4519-8611-b4ba5e06eb00")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "cce2800a-03c0-4c88-b0ed-ae6af1a10c9a")
 		(at 144.78 129.54)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J17"
-			(at 0 -1.998 0)
+		(property "Reference" "B_R_IN1"
+			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "298a60fe-8230-4faf-a2ba-6fe09abcc3c2")
+			(uuid "3785af78-b622-4f89-850a-54000df84d92")
 			(effects
 				(font
 					(size 1 1)
@@ -4274,9 +4127,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "16a3d137-0231-4baf-b3a4-3ac914f1a125")
+			(uuid "defbf91a-ab7f-4b37-96f5-bb930dd47686")
 			(effects
 				(font
 					(size 1 1)
@@ -4289,7 +4142,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63d90e93-2b27-45c4-98a1-8c2f226858b8")
+			(uuid "683ff6bc-7559-4688-ab0a-dd2805c87323")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4155,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01c9b458-8051-4005-a8da-0298ec10dccf")
+			(uuid "5696393d-88f6-46e9-8f18-3d3b65c4b5ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4176,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4334,7 +4187,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4344,7 +4197,7 @@
 			(uuid "7d01b8b7-cb87-4429-8be9-c6ad6b8025b7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "a1b004b3-609c-4f95-9f4c-1e31c8b90333")
 			(effects
@@ -4356,11 +4209,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J14-Pin_1)")
+			(net "Net-(B_R_IN1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "29441a9c-213e-4491-99d7-82a7408ad985")
@@ -4373,10 +4226,10 @@
 		(at 122.303273 89.165 90)
 		(descr "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins, https://www.neutrik.com/en/product/nmj6hcd2")
 		(tags "neutrik jack m")
-		(property "Reference" "J3"
+		(property "Reference" "AUDIO_IN1"
 			(at 6.35 -3 90)
 			(layer "F.SilkS")
-			(uuid "6bf50147-3b82-42e1-a7c5-456070a3ab08")
+			(uuid "33269297-5f8f-473c-b968-f51bc37446e0")
 			(effects
 				(font
 					(size 1 1)
@@ -4387,7 +4240,7 @@
 		(property "Value" "NMJ6HCD2"
 			(at 6.35 19 90)
 			(layer "F.Fab")
-			(uuid "de411734-d615-4955-aa2f-0f6b631e3f98")
+			(uuid "7f7b1ed0-bbf3-43f4-846b-59b84bc81099")
 			(effects
 				(font
 					(size 1 1)
@@ -4400,7 +4253,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7adbd40e-bf1e-419f-ac63-c8cfbefcefe1")
+			(uuid "e992b133-25f0-4904-b0af-5b1675d53478")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4266,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fa8f577-dc1f-47c5-b90e-2ed015694429")
+			(uuid "6a7d95c3-cf10-4a35-92ec-d36b526bacf7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4623,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-PadR)")
+			(net "Net-(AUDIO_IN1-PadR)")
 			(pintype "passive")
 			(uuid "792304cb-4d5d-49ad-a302-a09004c09832")
 		)
@@ -4780,7 +4633,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(AUDIO_IN1-PadRN)")
 			(pintype "passive")
 			(uuid "9d5237de-65c8-4a75-ac98-e69f99fc3dc5")
 		)
@@ -4790,7 +4643,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J15-Pin_1)")
+			(net "Net-(B_S_IN1-Pin_1)")
 			(pintype "passive")
 			(uuid "5a34808c-843a-42c8-88f8-af80790b7a29")
 		)
@@ -4800,7 +4653,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(AUDIO_IN1-PadRN)")
 			(pintype "passive")
 			(uuid "09d47ca3-61c5-4dc3-8be6-3319e07b9bb5")
 		)
@@ -4810,7 +4663,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-PadT)")
+			(net "Net-(AUDIO_IN1-PadT)")
 			(pintype "passive")
 			(uuid "d938b1c8-b4e3-4fbe-9627-b4f8217a2b6d")
 		)
@@ -4820,7 +4673,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
+			(net "Net-(AUDIO_IN1-PadRN)")
 			(pintype "passive")
 			(uuid "697cb92b-39a6-4d0a-af63-7ad1ccc2a6e7")
 		)
@@ -4837,121 +4690,16 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-		(layer "F.Cu")
-		(uuid "e226b39d-f6a0-4920-9380-e1ff26f04a4a")
-		(at 170.18 129.54)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
-		(tags "test point THT pad")
-		(property "Reference" "J3"
-			(at 0 -1.998 0)
-			(layer "F.SilkS")
-			(uuid "9691c9cd-5165-4ac0-8436-11f6aeacd2d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
-			(layer "F.Fab")
-			(uuid "4136ba5c-fa26-42f6-be44-1ec77b4dc00c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "56f3c6e3-db4f-456c-85f7-4d05f4af8f40")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00c4ce2d-8d2f-43fd-bded-2c9abfe2b390")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "21bac6d9-4248-4c86-8085-737b6d3b2438")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "3c23ed36-e953-4da4-86f3-afb2dc3b6d8d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "8d6db675-f39d-41f0-a029-bba7f5403038")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(J2-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "3fd7e7c4-18fc-4c45-b286-3abb5ac6034a")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "e3c84be1-8a70-4aaf-aaf9-2104375f4ccd")
-		(at 164.728317 114.3)
-		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(at 164.728317 116.84)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "J10"
-			(at 0 -1.998 0)
+		(property "Reference" "T_OUT1"
+			(at -2.168317 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "3cd3f46b-5601-4764-a4a2-6fd9433e4f5b")
+			(uuid "53b8368f-bdde-4deb-a8d3-232885dc991c")
 			(effects
 				(font
 					(size 1 1)
@@ -4960,9 +4708,9 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 0 2.05 0)
+			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "d0ecf5f7-5390-4180-8a6a-07be3e69047b")
+			(uuid "175ad71c-91bd-478a-9697-f87484c4735b")
 			(effects
 				(font
 					(size 1 1)
@@ -4975,7 +4723,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c6dd978-ad13-427e-ba72-2b4b3c0fbd1d")
+			(uuid "b2ae2c3f-acc8-47e4-b976-59b84e21a562")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +4736,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dba602a-c976-4693-a688-5ca9467cb429")
+			(uuid "85b0c8a9-6285-45a3-9a5a-40ba35ab20b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +4757,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 0 1.2)
+			(end 0 0.95)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5020,7 +4768,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.5 0)
+			(end 1.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5030,7 +4778,7 @@
 			(uuid "124fdb0a-ee2f-4c2d-b4b8-2ba5950cb922")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "3e7dc524-7530-43e4-98a8-2f8c388697f3")
 			(effects
@@ -5042,20 +4790,131 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 2 2)
-			(drill 1)
+			(size 1.5 1.5)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J10-Pin_1)")
+			(net "Net-(B_T_OUT1-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "5320328f-89c3-4e8f-9aee-9b0b55a33c77")
 		)
 		(embedded_fonts no)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "e69fd100-99fb-4bb3-bc09-3967a93a3155")
+		(at 124.46 132.08)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "B1-1"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(uuid "66df082c-48f3-40a1-8ceb-f8a8247e96d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "169673a2-ccc9-4e7d-a3b0-303ed413cd08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cba68e9-2a2c-414e-8b62-1626033f199d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37c867e8-5d27-4912-b347-fc430e5797a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1a04f3c4-5ca2-40e8-aa40-55057f92647e")
+		(sheetname "/")
+		(sheetfile "a2b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b9b272a0-c3ce-429e-9e5e-d2184588b164")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a77ba6d8-d613-467c-acd9-b24a0fa4eb9a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "9364e6b6-dbe5-4f3a-8454-f26d476bf321")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(B1-1-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "aafa8771-cd5e-4b34-ad21-730b95edbb6f")
+		)
+		(embedded_fonts no)
+	)
 	(gr_rect
 		(start 119.38 68.58)
-		(end 177.8 137.16)
+		(end 177.8 134.62)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -5066,7 +4925,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 119.38 124.46) (xy 119.38 137.16) (xy 121.92 137.16) (xy 121.92 124.46)
+			(xy 119.38 124.46) (xy 119.38 134.62) (xy 121.92 134.62) (xy 121.92 124.46)
 		)
 		(stroke
 			(width 0.05)
@@ -5078,19 +4937,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 165.1 124.46) (xy 165.1 137.16) (xy 167.64 137.16) (xy 167.64 124.46)
-		)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "75079d82-7d2c-47af-a0f0-5c509389c281")
-	)
-	(gr_poly
-		(pts
-			(xy 175.26 124.46) (xy 175.26 137.16) (xy 177.8 137.16) (xy 177.8 124.46)
+			(xy 175.26 124.46) (xy 175.26 134.62) (xy 177.8 134.62) (xy 177.8 124.46)
 		)
 		(stroke
 			(width 0.05)
@@ -5102,8 +4949,8 @@
 	)
 	(gr_poly
 		(pts
-			(xy 119.38 68.58) (xy 119.38 137.16) (xy 129.54 137.16) (xy 129.54 124.46) (xy 142.24 124.46) (xy 142.24 134.62)
-			(xy 154.94 134.62) (xy 154.94 124.46) (xy 165.1 124.46) (xy 165.1 137.16) (xy 177.8 137.16) (xy 177.8 68.58)
+			(xy 119.38 68.58) (xy 119.38 134.62) (xy 129.54 134.62) (xy 129.54 124.46) (xy 142.24 124.46) (xy 142.24 134.62)
+			(xy 154.94 134.62) (xy 154.94 124.46) (xy 167.64 124.46) (xy 167.64 134.62) (xy 177.8 134.62) (xy 177.8 68.58)
 		)
 		(stroke
 			(width 0.05)
@@ -5112,24 +4959,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "7ea37780-75d8-42d2-a9d4-265f775119cc")
-	)
-	(group ""
-		(uuid "b861aed0-36d0-4ffe-b7f5-d34f123888a7")
-		(members "441ec10a-b85b-4af2-8086-e42bb4494578" "4ed2f029-28bd-4f7f-a94b-f12152ae2b50"
-			"521cfa04-4e65-49f0-bfbe-8fcb4ad21b65"
-		)
-	)
-	(group ""
-		(uuid "d3882bc6-e4b3-4265-8038-648c8513d285")
-		(members "159e862e-0721-4d87-8e6c-3a753b7f1046" "41d92a66-8c48-4fc3-9931-1fbd261b5853"
-			"afd40c15-2500-4664-b74e-026f13a12057" "ba5c6162-dac3-4d24-bc2b-73d668b018c7"
-		)
-	)
-	(group ""
-		(uuid "d3d6a564-3039-4f45-85c4-31d65f0305bb")
-		(members "32c7579a-cd29-44fc-9d3c-f460b35e7846" "aa1c34c9-dffc-44d4-b410-408c9634b717"
-			"e3c84be1-8a70-4aaf-aaf9-2104375f4ccd"
-		)
 	)
 	(embedded_fonts no)
 )

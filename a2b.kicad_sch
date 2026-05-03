@@ -862,6 +862,135 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Conn_01x01_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_1_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:NMJ6HCD2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1938,18 +2067,6 @@
 		)
 	)
 	(junction
-		(at 238.76 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a67d914-06ff-4e6d-851e-0a019b938e4b")
-	)
-	(junction
-		(at 224.79 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2531813d-e720-4806-96df-9f5330a51ea8")
-	)
-	(junction
 		(at 147.32 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1962,22 +2079,40 @@
 		(uuid "2cb26e06-3b0e-4678-b349-7207de10d971")
 	)
 	(junction
+		(at 195.58 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3740aef2-0f85-4061-8c1b-2e49bdfdcec3")
+	)
+	(junction
 		(at 71.12 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3889bf42-6781-473f-b5b6-c7bd11d52f35")
 	)
 	(junction
-		(at 186.69 114.3)
+		(at 238.76 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "477f36ca-d6f6-4a50-b59e-c76db5b7713b")
+		(uuid "4ab1bc97-72ed-4c24-b01e-786e17b7a817")
 	)
 	(junction
-		(at 139.7 116.84)
+		(at 236.22 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77677461-c25e-4f6b-bfc9-04612b38e2a5")
+		(uuid "5d479dfb-4eb2-4c0e-acd8-e088ac0a6228")
+	)
+	(junction
+		(at 220.98 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63167b14-e267-4878-b4d8-08465d4dc66e")
+	)
+	(junction
+		(at 233.68 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64178e2f-1672-44ce-aab7-bceec8bfb2d7")
 	)
 	(junction
 		(at 144.78 119.38)
@@ -1992,28 +2127,16 @@
 		(uuid "a0241d2a-dab2-46fd-9abf-2b82de12a73d")
 	)
 	(junction
-		(at 109.22 116.84)
+		(at 223.52 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a472c27c-8126-4a5e-80c0-4d3a351d7fcf")
+		(uuid "b07b1ae8-4efa-4170-97ee-b28fb45924f7")
 	)
 	(junction
-		(at 227.33 59.69)
+		(at 195.58 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae7ac319-0bc8-4621-aee9-ac12435b28c2")
-	)
-	(junction
-		(at 144.78 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7d9bb8c-33d4-4f25-aae1-cbbc3faa1de9")
-	)
-	(junction
-		(at 233.68 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9059f72-3324-4448-9714-f4871b1d101a")
+		(uuid "b469525c-5eb1-4339-8e14-fea55f8d3153")
 	)
 	(junction
 		(at 58.42 119.38)
@@ -2028,22 +2151,10 @@
 		(uuid "c452024d-ea76-4bbc-a2f6-c3a900c54e05")
 	)
 	(junction
-		(at 109.22 114.3)
+		(at 109.22 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7b7ab90-6cfc-43fb-b1cc-a429f9cb04ee")
-	)
-	(junction
-		(at 236.22 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5cbcab0-09ff-4c5f-8e5a-5ae44147b43c")
-	)
-	(junction
-		(at 186.69 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffb8f22d-d629-46cd-9d52-1541c9689c74")
+		(uuid "d2c0376c-0c3d-4454-8523-d8a9abbf606d")
 	)
 	(wire
 		(pts
@@ -2077,33 +2188,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 114.3) (xy 186.69 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07025cce-cce4-43a7-9441-63320231dabb")
-	)
-	(wire
-		(pts
-			(xy 147.32 74.93) (xy 147.32 86.36)
+			(xy 147.32 76.2) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b14b76c-235a-4c3c-bf5d-8c6a3752d60f")
-	)
-	(wire
-		(pts
-			(xy 238.76 116.84) (xy 261.62 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e2fe207-a8f3-4798-a66c-e71a962a4188")
 	)
 	(wire
 		(pts
@@ -2117,6 +2208,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 129.54) (xy 256.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea15ffa-d6af-4b04-bfbe-87d8fa210163")
+	)
+	(wire
+		(pts
 			(xy 33.02 127) (xy 33.02 116.84)
 		)
 		(stroke
@@ -2127,13 +2228,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 114.3) (xy 186.69 116.84)
+			(xy 215.9 127) (xy 233.68 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12be0a3c-646d-492f-b5bb-5ee53b45fc42")
+		(uuid "147c9d24-0476-4ad8-ae57-b10fbd8659ed")
 	)
 	(wire
 		(pts
@@ -2157,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 78.74 58.42)
+			(xy 78.74 68.58) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2187,6 +2288,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 116.84) (xy 228.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c12006c-9fe9-46af-af19-1c13527bd0d3")
+	)
+	(wire
+		(pts
+			(xy 226.06 68.58) (xy 226.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21449544-ef0a-4ce3-93dd-615d50d0300d")
+	)
+	(wire
+		(pts
 			(xy 139.7 46.99) (xy 139.7 116.84)
 		)
 		(stroke
@@ -2197,7 +2318,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 41.91) (xy 149.86 54.61)
+			(xy 149.86 41.91) (xy 149.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2348,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 114.3) (xy 73.66 116.84)
+			(xy 73.66 109.22) (xy 73.66 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2257,43 +2378,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 119.38) (xy 236.22 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3479d47f-5627-4e57-aa8f-a75163dbce4c")
-	)
-	(wire
-		(pts
-			(xy 227.33 64.77) (xy 227.33 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34cd11de-d788-455f-84b1-a20245f370e4")
-	)
-	(wire
-		(pts
-			(xy 223.52 114.3) (xy 223.52 116.84)
+			(xy 223.52 109.22) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "357e1c01-075c-43bc-a448-60976eaf1908")
-	)
-	(wire
-		(pts
-			(xy 226.06 62.23) (xy 226.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "361f4337-b9ac-4045-abcd-b2b57d89ec0a")
 	)
 	(wire
 		(pts
@@ -2307,7 +2398,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 71.12 73.66)
+			(xy 71.12 63.5) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2337,17 +2428,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 54.61) (xy 186.69 54.61)
+			(xy 223.52 124.46) (xy 236.22 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43013001-eacb-42dc-aa1d-6b6114c0f021")
+		(uuid "4425a12b-62ca-4d3e-b859-12cd443388c9")
 	)
 	(wire
 		(pts
-			(xy 229.87 59.69) (xy 227.33 59.69)
+			(xy 228.6 58.42) (xy 223.52 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2357,13 +2448,33 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 121.92) (xy 256.54 121.92)
+			(xy 220.98 116.84) (xy 195.58 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "485584dc-4e99-49e5-8eb8-bf541fc20bb2")
+		(uuid "48693080-693a-4c7c-bbaf-c7d4050d4001")
+	)
+	(wire
+		(pts
+			(xy 261.62 129.54) (xy 261.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488548b0-b962-4783-a121-16fc9979e6e4")
+	)
+	(wire
+		(pts
+			(xy 238.76 121.92) (xy 238.76 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a03a092-0a08-4603-b3f4-cb0a45fc07e6")
 	)
 	(wire
 		(pts
@@ -2374,6 +2485,16 @@
 			(type default)
 		)
 		(uuid "4b013813-6aba-4223-9218-3a004328485e")
+	)
+	(wire
+		(pts
+			(xy 223.52 58.42) (xy 223.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5073cc96-55b8-495e-8dff-84c6891997ab")
 	)
 	(wire
 		(pts
@@ -2397,13 +2518,23 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 121.92) (xy 256.54 129.54)
+			(xy 195.58 58.42) (xy 223.52 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60fbb824-03fd-4c46-8b85-0a842afa5b7b")
+		(uuid "56284b8c-6b6e-429c-b3a8-ce8b0d5c699f")
+	)
+	(wire
+		(pts
+			(xy 228.6 60.96) (xy 218.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2ce0de-fcf2-4315-9517-ab98c7d570ce")
 	)
 	(wire
 		(pts
@@ -2427,7 +2558,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 114.3) (xy 68.58 116.84)
+			(xy 236.22 124.46) (xy 236.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b300a89-5e65-4f1a-9470-35e00c91c68d")
+	)
+	(wire
+		(pts
+			(xy 68.58 109.22) (xy 68.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2437,27 +2578,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 59.69) (xy 227.33 59.69)
+			(xy 223.52 53.34) (xy 223.52 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "723572b5-5f08-4866-9719-472bf3cfe074")
+		(uuid "7367f01e-85ad-4c76-86ae-33e37a623cfe")
 	)
 	(wire
 		(pts
-			(xy 144.78 116.84) (xy 186.69 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7245c64d-c865-4b2c-8042-1c545b0ce3a3")
-	)
-	(wire
-		(pts
-			(xy 76.2 114.3) (xy 76.2 119.38)
+			(xy 76.2 109.22) (xy 76.2 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2477,6 +2608,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 109.22) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d890789-f6bd-4454-b35e-6b3ce7ee83db")
+	)
+	(wire
+		(pts
 			(xy 68.58 60.96) (xy 68.58 59.69)
 		)
 		(stroke
@@ -2487,17 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 119.38) (xy 259.08 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2e7180-59cd-4514-b35f-a96910f81db3")
-	)
-	(wire
-		(pts
-			(xy 81.28 114.3) (xy 109.22 114.3)
+			(xy 81.28 109.22) (xy 109.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2507,13 +2638,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 62.23) (xy 226.06 62.23)
+			(xy 195.58 50.8) (xy 195.58 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "879de6ae-4880-46d3-8eb1-c4249256e3eb")
+		(uuid "8166ec21-4ca9-4ddd-bd4c-1f69f6bdc5a1")
 	)
 	(wire
 		(pts
@@ -2524,6 +2655,16 @@
 			(type default)
 		)
 		(uuid "87ac4785-2fdc-4a2f-a325-e7c061dcf554")
+	)
+	(wire
+		(pts
+			(xy 195.58 58.42) (xy 195.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88513204-315f-4bbb-8a66-67d894478223")
 	)
 	(wire
 		(pts
@@ -2547,6 +2688,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 127) (xy 236.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8c2117-1d7c-4e10-8839-29eef5265fba")
+	)
+	(wire
+		(pts
+			(xy 226.06 55.88) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c650af5-230d-447f-a814-d993a8a15069")
+	)
+	(wire
+		(pts
 			(xy 66.04 63.5) (xy 71.12 63.5)
 		)
 		(stroke
@@ -2557,13 +2718,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 57.15) (xy 218.44 57.15)
+			(xy 259.08 127) (xy 236.22 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a937164-f8e8-4247-b8cd-44a2a4addff5")
+		(uuid "9349f494-0ead-465a-929d-0e93607938c1")
+	)
+	(wire
+		(pts
+			(xy 218.44 60.96) (xy 218.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea4b5d4-1cb9-4ba9-9f68-9310e2e59fae")
 	)
 	(wire
 		(pts
@@ -2587,13 +2758,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 116.84) (xy 139.7 116.84)
+			(xy 195.58 116.84) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a308384b-d7f6-4c0d-9156-4d39a9c67620")
+		(uuid "a60a7e27-f2f0-44b1-affe-74d4ebafa2c6")
 	)
 	(wire
 		(pts
@@ -2607,13 +2778,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 119.38) (xy 259.08 129.54)
+			(xy 259.08 129.54) (xy 259.08 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8a02a73-3aef-4f38-a5de-1eb1207cb7d3")
+		(uuid "aabbc4d5-b9c8-4335-95b9-de8aedc8d399")
 	)
 	(wire
 		(pts
@@ -2624,16 +2795,6 @@
 			(type default)
 		)
 		(uuid "aca456c9-fc06-4636-b987-3ca0477402d4")
-	)
-	(wire
-		(pts
-			(xy 261.62 116.84) (xy 261.62 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad20af04-ac19-4912-8e22-b8f21c4de561")
 	)
 	(wire
 		(pts
@@ -2657,43 +2818,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 54.61) (xy 109.22 114.3)
+			(xy 109.22 54.61) (xy 109.22 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7eba824-7b8c-42b8-8a2a-ae93cc2b6b7d")
-	)
-	(wire
-		(pts
-			(xy 109.22 114.3) (xy 109.22 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b91b1816-f239-4a54-be3b-5bc24bb095fc")
-	)
-	(wire
-		(pts
-			(xy 229.87 54.61) (xy 224.79 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba114f67-000e-4887-8cec-bad27bbf508b")
-	)
-	(wire
-		(pts
-			(xy 238.76 116.84) (xy 228.6 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bac86d20-5415-4224-acd2-ec56482e6124")
 	)
 	(wire
 		(pts
@@ -2717,27 +2848,27 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 54.61) (xy 224.79 59.69)
+			(xy 261.62 121.92) (xy 238.76 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c50474bf-fec3-4f72-8283-18746dca0612")
+		(uuid "c9a839af-00c6-4246-b739-52d9cb23509b")
 	)
 	(wire
 		(pts
-			(xy 233.68 121.92) (xy 195.58 121.92)
+			(xy 220.98 109.22) (xy 220.98 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6c6066a-3257-455d-a0f4-9bf5c0187fac")
+		(uuid "cc2b2193-811b-4c85-a782-88271a97a9e0")
 	)
 	(wire
 		(pts
-			(xy 228.6 114.3) (xy 228.6 116.84)
+			(xy 228.6 109.22) (xy 228.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2767,16 +2898,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 119.38) (xy 220.98 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2bda49e-13e5-4898-855e-5b89434ef941")
-	)
-	(wire
-		(pts
 			(xy 134.62 41.91) (xy 149.86 41.91)
 		)
 		(stroke
@@ -2797,13 +2918,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 116.84) (xy 238.76 127)
+			(xy 195.58 121.92) (xy 238.76 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4f0cbcf-8915-41e2-a484-8b54f611b061")
+		(uuid "d422eedf-c540-4ffb-bd8c-8d3b599d85fe")
 	)
 	(wire
 		(pts
@@ -2817,16 +2938,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 57.15) (xy 218.44 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd5adda-007c-472b-b8d6-ba103f0ad088")
-	)
-	(wire
-		(pts
 			(xy 66.04 55.88) (xy 71.12 55.88)
 		)
 		(stroke
@@ -2837,37 +2948,37 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 116.84) (xy 223.52 116.84)
+			(xy 215.9 109.22) (xy 215.9 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecbd13e3-712a-4bf7-a184-2916fd2625cb")
+		(uuid "e99bd24e-6606-415a-adb0-47707d2e7d99")
 	)
 	(wire
 		(pts
-			(xy 220.98 114.3) (xy 220.98 119.38)
+			(xy 233.68 129.54) (xy 233.68 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef9b262e-2d80-4c64-ba69-ee805ee1befb")
+		(uuid "ee4c1ef5-6886-43f0-a64b-8a6449ad963c")
 	)
 	(wire
 		(pts
-			(xy 195.58 52.07) (xy 195.58 121.92)
+			(xy 228.6 53.34) (xy 223.52 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2590e48-ae4a-4254-8644-24d32cd21820")
+		(uuid "eeef2081-4778-4ae7-9d3a-62c330a8c7dc")
 	)
 	(wire
 		(pts
-			(xy 229.87 52.07) (xy 195.58 52.07)
+			(xy 228.6 50.8) (xy 195.58 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2877,23 +2988,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 64.77) (xy 227.33 64.77)
+			(xy 233.68 129.54) (xy 233.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56c8783-7047-4491-a16b-a5dcdf71a1e4")
+	)
+	(wire
+		(pts
+			(xy 223.52 63.5) (xy 228.6 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7eabc90-56aa-4b3d-b898-76b00442bf75")
-	)
-	(wire
-		(pts
-			(xy 186.69 54.61) (xy 186.69 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe38197d-2740-426f-9edf-46df361e96db")
 	)
 	(wire
 		(pts
@@ -2905,19 +3016,9 @@
 		)
 		(uuid "ff02813d-755a-472e-9da4-5a3d153780d5")
 	)
-	(wire
-		(pts
-			(xy 233.68 121.92) (xy 233.68 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffc68ad6-b2eb-4da0-9b52-0fe8c8edfda9")
-	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 236.22 132.08 270)
+		(at 236.22 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2925,10 +3026,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "08734a32-153c-4777-afe7-79dbf4c598bf")
-		(property "Reference" "J11"
-			(at 238.76 130.8099 90)
+		(property "Reference" "R_OUT1"
+			(at 233.68 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2939,7 +3039,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 238.76 133.3499 90)
+			(at 238.76 138.4299 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2949,8 +3050,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 236.22 132.08 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 236.22 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,7 +3062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 132.08 0)
+			(at 236.22 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +3073,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 236.22 132.08 0)
+			(at 236.22 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2988,7 +3089,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J11")
+					(reference "R_OUT1")
 					(unit 1)
 				)
 			)
@@ -3004,10 +3105,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "109a1974-f7ba-465a-ae7c-41f4da1c8cd0")
-		(property "Reference" "J9"
-			(at 180.34 130.8099 90)
+		(property "Reference" "B2+1"
+			(at 177.8 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3019,6 +3119,7 @@
 		)
 		(property "Value" "Conn_01x01"
 			(at 180.34 133.3499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3028,7 +3129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 177.8 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3067,7 +3168,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J9")
+					(reference "B2+1")
 					(unit 1)
 				)
 			)
@@ -3083,10 +3184,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a04f3c4-5ca2-40e8-aa40-55057f92647e")
-		(property "Reference" "J2"
-			(at 124.46 130.8099 90)
+		(property "Reference" "B1-1"
+			(at 116.84 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3097,7 +3197,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 124.46 133.3499 90)
+			(at 116.84 142.24 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3107,7 +3208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 121.92 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3146,7 +3247,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J2")
+					(reference "B1-1")
 					(unit 1)
 				)
 			)
@@ -3162,10 +3263,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a3c9b08-a0b2-4d7b-ad38-26665baccc35")
-		(property "Reference" "J18"
-			(at 40.64 130.8099 90)
+		(property "Reference" "B_S_IN1"
+			(at 40.64 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3176,7 +3276,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 40.64 133.3499 90)
+			(at 38.1 149.86 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3186,7 +3287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 38.1 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3225,7 +3326,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J18")
+					(reference "B_S_IN1")
 					(unit 1)
 				)
 			)
@@ -3256,7 +3357,6 @@
 		)
 		(property "Value" "1k"
 			(at 149.86 91.4399 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3325,8 +3425,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "392a9ee5-75a3-4f03-91ae-0b3f0522584a")
-		(property "Reference" "J6"
-			(at 147.32 130.8099 90)
+		(property "Reference" "F1-1"
+			(at 142.24 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3336,8 +3436,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NEG1"
+		(property "Value" "Conn_01x01"
 			(at 139.7 134.62 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3347,7 +3448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 144.78 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3386,7 +3487,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J6")
+					(reference "F1-1")
 					(unit 1)
 				)
 			)
@@ -3394,7 +3495,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:NMJ6HCD2")
-		(at 234.95 57.15 0)
+		(at 233.68 55.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3405,28 +3506,30 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d12996c-6b43-480e-81cd-a7596c029945")
-		(property "Reference" "J5"
-			(at 236.855 45.72 0)
+		(property "Reference" "AUDIO_OUT1"
+			(at 241.3 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "NMJ6HCD2"
-			(at 236.855 48.26 0)
+			(at 241.3 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
-			(at 234.95 57.15 0)
+			(at 233.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3437,7 +3540,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hcd2"
-			(at 234.95 57.15 0)
+			(at 233.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3448,7 +3551,7 @@
 			)
 		)
 		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins"
-			(at 234.95 57.15 0)
+			(at 233.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3479,7 +3582,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J5")
+					(reference "AUDIO_OUT1")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56747cf7-e9f3-44b0-b772-218a880b0054")
-		(property "Reference" "J1"
+		(property "Reference" "DC_IN1"
 			(at 127 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3610,7 +3713,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J1")
+					(reference "DC_IN1")
 					(unit 1)
 				)
 			)
@@ -3626,10 +3729,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5f418111-8e6b-49e5-9f24-6a2f743a6554")
-		(property "Reference" "J8"
-			(at 177.8 130.8099 90)
+		(property "Reference" "B2-1"
+			(at 170.18 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3641,6 +3743,7 @@
 		)
 		(property "Value" "Conn_01x01"
 			(at 177.8 133.3499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3650,7 +3753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 175.26 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3689,7 +3792,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J8")
+					(reference "B2-1")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3800,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 238.76 132.08 270)
+		(at 238.76 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3705,10 +3808,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61de564e-f0b4-4028-892a-fb69da9ac2e8")
-		(property "Reference" "J12"
-			(at 241.3 130.8099 90)
+		(property "Reference" "S_OUT1"
+			(at 241.3 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3719,7 +3821,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 241.3 133.3499 90)
+			(at 241.3 138.4299 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3729,8 +3832,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 238.76 132.08 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3741,7 +3844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 132.08 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3752,7 +3855,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 132.08 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +3871,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J12")
+					(reference "S_OUT1")
 					(unit 1)
 				)
 			)
@@ -3784,10 +3887,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "63c88df2-aeea-4e9a-b21c-a8573c7b8dea")
-		(property "Reference" "J14"
-			(at 60.96 130.8099 90)
+		(property "Reference" "R_IN1"
+			(at 55.88 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3798,7 +3900,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 60.96 133.3499 90)
+			(at 60.96 139.7 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3808,7 +3911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 58.42 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3847,7 +3950,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J14")
+					(reference "R_IN1")
 					(unit 1)
 				)
 			)
@@ -3863,10 +3966,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "67f8c03b-619c-4316-a3d4-b01806c022b4")
-		(property "Reference" "J13"
-			(at 58.42 130.8099 90)
+		(property "Reference" "T_IN1"
+			(at 49.8602 132.2002 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3877,7 +3979,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 58.42 133.3499 90)
+			(at 50.8 137.16 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3887,7 +3990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 55.88 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3926,7 +4029,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J13")
+					(reference "T_IN1")
 					(unit 1)
 				)
 			)
@@ -3934,7 +4037,7 @@
 	)
 	(symbol
 		(lib_id "ANT21SECQE:ANT21SECQE")
-		(at 68.58 114.3 90)
+		(at 68.58 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3944,8 +4047,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69dcaf4c-948f-41fa-90b6-cd640f2c7715")
-		(property "Reference" "SW1"
-			(at 85.09 92.7099 90)
+		(property "Reference" "AUDIO_IN_SW1"
+			(at 85.09 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3956,7 +4059,7 @@
 			)
 		)
 		(property "Value" "ANT21SECQE"
-			(at 85.09 95.2499 90)
+			(at 85.09 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3967,7 +4070,7 @@
 			)
 		)
 		(property "Footprint" "ANT21SECQE:SW6_ANT21SECQE_CRS"
-			(at 68.58 114.3 0)
+			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3979,7 +4082,7 @@
 			)
 		)
 		(property "Datasheet" "ANT21SECQE"
-			(at 68.58 114.3 0)
+			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,7 +4094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 114.3 0)
+			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4022,13 +4125,14 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "SW1")
+					(reference "AUDIO_IN_SW1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x01_1")
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 33.02 132.08 270)
 		(unit 1)
@@ -4038,10 +4142,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "71c41bc6-6766-47ec-95d1-03b818740642")
-		(property "Reference" "J16"
-			(at 35.56 130.8099 90)
+		(property "Reference" "B_T_IN1"
+			(at 23.88 132.0119 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4052,7 +4155,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 35.56 133.3499 90)
+			(at 27.94 142.24 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4062,7 +4166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 33.02 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4101,7 +4205,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J16")
+					(reference "B_T_IN1")
 					(unit 1)
 				)
 			)
@@ -4109,7 +4213,7 @@
 	)
 	(symbol
 		(lib_id "ANT13SECQE:ANT13SECQE")
-		(at 149.86 54.61 270)
+		(at 149.86 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4119,8 +4223,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722d41e0-245e-4045-bbaa-3fa809b5fddc")
-		(property "Reference" "U1"
-			(at 153.67 63.4999 90)
+		(property "Reference" "POWERSWITCH1"
+			(at 153.67 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4131,7 +4235,7 @@
 			)
 		)
 		(property "Value" "ANT13SECQE"
-			(at 153.67 66.0399 90)
+			(at 153.67 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4142,7 +4246,7 @@
 			)
 		)
 		(property "Footprint" "footprints:ANT13SEC_CRS"
-			(at 149.86 54.61 0)
+			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4154,7 +4258,7 @@
 			)
 		)
 		(property "Datasheet" "ANT13SECQE"
-			(at 149.86 54.61 0)
+			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4166,7 +4270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 54.61 0)
+			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4188,7 +4292,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "U1")
+					(reference "POWERSWITCH1")
 					(unit 1)
 				)
 			)
@@ -4206,7 +4310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bf3b2d6-9080-41d0-96ae-e0c6147a551a")
-		(property "Reference" "J3"
+		(property "Reference" "AUDIO_IN1"
 			(at 59.055 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4280,7 +4384,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J3")
+					(reference "AUDIO_IN1")
 					(unit 1)
 				)
 			)
@@ -4296,10 +4400,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "866b5936-a802-4fee-9442-c2051eb4d7a2")
-		(property "Reference" "J20"
-			(at 261.62 133.3499 90)
+		(property "Reference" "B_R_OUT1"
+			(at 256.54 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4311,6 +4414,7 @@
 		)
 		(property "Value" "Conn_01x01"
 			(at 261.62 135.8899 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4320,7 +4424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 259.08 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4359,7 +4463,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J20")
+					(reference "B_R_OUT1")
 					(unit 1)
 				)
 			)
@@ -4367,7 +4471,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 233.68 132.08 270)
+		(at 233.68 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4375,10 +4479,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1701b08-8037-48df-9a92-517cc49b4671")
-		(property "Reference" "J10"
-			(at 236.22 130.8099 90)
+		(property "Reference" "T_OUT1"
+			(at 223.52 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4389,7 +4492,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 236.22 133.3499 90)
+			(at 236.22 138.4299 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4399,8 +4503,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 233.68 132.08 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 233.68 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,7 +4515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 132.08 0)
+			(at 233.68 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4422,7 +4526,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 233.68 132.08 0)
+			(at 233.68 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4542,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J10")
+					(reference "T_OUT1")
 					(unit 1)
 				)
 			)
@@ -4446,7 +4550,7 @@
 	)
 	(symbol
 		(lib_id "ANT21SECQE:ANT21SECQE")
-		(at 215.9 114.3 90)
+		(at 215.9 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4456,8 +4560,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1f39358-ea00-4eb8-a5a4-d575e796545d")
-		(property "Reference" "SW2"
-			(at 232.41 92.7099 90)
+		(property "Reference" "AUDIO_OUT_SW1"
+			(at 232.41 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4468,7 +4572,7 @@
 			)
 		)
 		(property "Value" "ANT21SECQE"
-			(at 232.41 95.2499 90)
+			(at 232.41 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4479,7 +4583,7 @@
 			)
 		)
 		(property "Footprint" "ANT21SECQE:SW6_ANT21SECQE_CRS"
-			(at 215.9 114.3 0)
+			(at 215.9 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,7 +4595,7 @@
 			)
 		)
 		(property "Datasheet" "ANT21SECQE"
-			(at 215.9 114.3 0)
+			(at 215.9 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,7 +4607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 114.3 0)
+			(at 215.9 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4534,7 +4638,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "SW2")
+					(reference "AUDIO_OUT_SW1")
 					(unit 1)
 				)
 			)
@@ -4644,10 +4748,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ba213757-8f76-4640-8f0a-c4f42608ed59")
-		(property "Reference" "J19"
-			(at 259.08 133.3499 90)
+		(property "Reference" "B_T_OUT1"
+			(at 246.38 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4659,6 +4762,7 @@
 		)
 		(property "Value" "Conn_01x01"
 			(at 259.08 135.8899 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4668,7 +4772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 256.54 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4707,7 +4811,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J19")
+					(reference "B_T_OUT1")
 					(unit 1)
 				)
 			)
@@ -4723,10 +4827,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bafc3515-aaa4-48f0-a2e8-f35ca74d6b01")
-		(property "Reference" "J21"
-			(at 264.16 133.3499 90)
+		(property "Reference" "B_S_OUT1"
+			(at 266.7 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4738,6 +4841,7 @@
 		)
 		(property "Value" "Conn_01x01"
 			(at 264.16 135.8899 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4747,7 +4851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 261.62 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4786,7 +4890,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J21")
+					(reference "B_S_OUT1")
 					(unit 1)
 				)
 			)
@@ -4802,10 +4906,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bedb0e2a-5bad-4118-9328-3e9c65145f6f")
-		(property "Reference" "J17"
-			(at 38.1 130.8099 90)
+		(property "Reference" "B_R_IN1"
+			(at 33.02 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4816,7 +4919,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 38.1 133.3499 90)
+			(at 43.18 142.24 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4826,7 +4930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 35.56 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4865,7 +4969,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J17")
+					(reference "B_R_IN1")
 					(unit 1)
 				)
 			)
@@ -4881,10 +4985,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d929ac06-ca70-474e-8c73-a9332023b1f9")
-		(property "Reference" "J15"
-			(at 63.5 130.8099 90)
+		(property "Reference" "S_IN1"
+			(at 63.5 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4895,7 +4998,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 63.5 133.3499 90)
+			(at 38.1 149.86 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4905,7 +5009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 60.96 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4944,7 +5048,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J15")
+					(reference "S_IN1")
 					(unit 1)
 				)
 			)
@@ -4960,10 +5064,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd3dae61-b81b-489b-8dbb-985ba41c457f")
-		(property "Reference" "J4"
-			(at 127 130.8099 90)
+		(property "Reference" "B1+1"
+			(at 124.46 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4974,7 +5077,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 127 133.3499 90)
+			(at 119.38 139.7 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4984,7 +5088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 124.46 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5023,7 +5127,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J4")
+					(reference "B1+1")
 					(unit 1)
 				)
 			)
@@ -5040,8 +5144,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f23ec95e-cf84-4e07-9e88-cb7841528b03")
-		(property "Reference" "J7"
-			(at 149.86 130.8099 90)
+		(property "Reference" "F1+1"
+			(at 147.32 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5051,8 +5155,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "POS1"
+		(property "Value" "Conn_01x01"
 			(at 147.32 134.62 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5062,7 +5167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5101,7 +5206,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "J7")
+					(reference "F1+1")
 					(unit 1)
 				)
 			)
