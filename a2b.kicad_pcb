@@ -126,117 +126,6 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-		(layer "F.Cu")
-		(uuid "0dd8e5fe-68fe-4ab4-93c1-81310f946fd8")
-		(at 149.86 116.84)
-		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-		(tags "test point THT pad")
-		(property "Reference" "F1+1"
-			(at 2.54 -2.54 0)
-			(layer "F.SilkS")
-			(uuid "29f6b220-8bca-484a-9f49-a8e16d9a83a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 1.75 0)
-			(layer "F.Fab")
-			(uuid "2d9959cb-bb10-4ea3-9ef7-0a7a5ab51e9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79d9f0e7-c18e-4ce3-8926-7a0182bc5c4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "487d2635-6296-4c67-9db3-1a27746d9efc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/f23ec95e-cf84-4e07-9e88-cb7841528b03")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "cdadc368-be4c-4128-9750-b6714325c788")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "07f86a48-b990-4774-b2c1-44518e9b0d7b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
-			(layer "F.Fab")
-			(uuid "ab230d95-a93f-47fb-b08e-d2f6ab824abd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(drill 0.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(B1+1-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "d876a6bd-660d-4745-817f-caca7311027d")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "footprints:ANT13SEC_CRS"
 		(layer "F.Cu")
 		(uuid "159e862e-0721-4d87-8e6c-3a753b7f1046")
@@ -807,7 +696,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(B1+1-Pin_1)")
+			(net "Net-(D1-K)")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "98e93467-ae97-4992-ae4c-0b25bde210d0")
@@ -1240,117 +1129,6 @@
 			(pinfunction "6_6")
 			(pintype "unspecified")
 			(uuid "48655f13-ed63-4aa4-89ae-d412cfb843c2")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-		(layer "F.Cu")
-		(uuid "4bc30e3b-5838-4af1-af2c-140febd34a02")
-		(at 127 132.08)
-		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-		(tags "test point THT pad")
-		(property "Reference" "B1+1"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
-			(uuid "46adbe94-ff1c-466e-a7b0-478bebe0f6ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 1.75 0)
-			(layer "F.Fab")
-			(uuid "9eb6ee32-6d35-4361-b305-d9fc4c28b2f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3df1468b-8012-4127-90cd-16a83c92e07e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6ddd3b51-69d7-4141-9459-46b942e4b333")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/dd3dae61-b81b-489b-8dbb-985ba41c457f")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "8ccd6a6d-b564-4a28-9c07-74a3db3b4d24")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "fda41c21-06d3-4c2c-a802-491f8a69b027")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
-			(layer "F.Fab")
-			(uuid "03c064db-1cdf-4067-9bff-42271e12c12e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(drill 0.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(B1+1-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "cbe7f5f0-3f29-4faa-adb2-b332b697b923")
 		)
 		(embedded_fonts no)
 	)
@@ -1872,16 +1650,16 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "8394fc69-b8e8-4126-90d0-eb9ec7bd4622")
-		(at 147.32 116.84)
-		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-		(tags "test point THT pad")
-		(property "Reference" "F1-1"
-			(at -2.54 -2.54 0)
+		(uuid "5a048518-757e-4ab2-9cae-ce80c0c57cb5")
+		(at 149.86 116.84 -90)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "U2"
+			(at 0 -2.38 90)
 			(layer "F.SilkS")
-			(uuid "395ac1d4-c37e-4b49-a819-8432bf96946c")
+			(uuid "7d367153-c55d-4126-a186-aa914dc6e08b")
 			(effects
 				(font
 					(size 1 1)
@@ -1889,10 +1667,10 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 0 1.75 0)
+		(property "Value" "~"
+			(at 0 4.92 90)
 			(layer "F.Fab")
-			(uuid "4228a97f-cbc1-4048-9be8-f136345feff0")
+			(uuid "7e9e288c-4ef8-430a-acca-126b7e1c6419")
 			(effects
 				(font
 					(size 1 1)
@@ -1901,68 +1679,32 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5cf950e-2125-4da7-a984-ffcc99cb22a3")
+			(uuid "f092e7ec-a305-4d91-a8f1-05d9ff170d92")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6121538e-a8d2-499b-8962-2fe955224b22")
+			(uuid "d12f1b8f-e056-4120-aad5-7327053ef114")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/392a9ee5-75a3-4f03-91ae-0b3f0522584a")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 90)
 			(layer "F.SilkS")
-			(uuid "b4558262-6951-49e5-ac66-9e2ef1408325")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d1923ff3-6642-4cfa-815d-eda9a3dc52cf")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
-			(layer "F.Fab")
-			(uuid "543eaa4b-42cb-4fec-b5cb-99792d76ea6d")
+			(hide yes)
+			(uuid "48f58f70-0ce8-4225-b347-ed1297a2f314")
 			(effects
 				(font
 					(size 1 1)
@@ -1970,18 +1712,181 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(drill 0.7)
+		(path "/90880567-bc34-492a-a0ad-82dacdbe0ff1")
+		(sheetname "/")
+		(sheetfile "a2b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.38 3.92)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "369d442e-f836-42af-97e6-9d9ca8235b4e")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "94df64df-63f1-444a-aacb-eb2b97dcbac8")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "00dbfa8d-7f84-4246-b853-d04acc0c3c9e")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "657869e2-2f43-40dc-aa11-e3c668213007")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d1625c87-30c0-46b3-a900-3a08ba8bb3d4")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e766c9c3-9a5b-4ace-8de9-eefb707dd13f")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 4.32)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "923822a5-5d00-43de-aad8-da00e1fc82b2")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b09d689-a18d-4fdf-9985-befeed77deb5")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "62accb38-4639-49ef-a784-ae62897da1ea")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f0b1bd89-f6ca-4a82-b320-46656763b11d")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c395c31b-3edd-42ea-91d3-b07f8b797f51")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d4f49525-de17-44fd-9e32-578dc44698ea")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.27 0)
+			(layer "F.Fab")
+			(uuid "9bae6ae6-08aa-44bc-885e-07b130c0cb83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 270)
+			(size 1.7 1.7)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(B1-1-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "3512f9d8-bce6-4cbd-9485-76201c643f67")
+			(net "Net-(D1-K)")
+			(pintype "input")
+			(uuid "a73f8226-c750-4ce5-a949-7d8bfb616738")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(DC_IN1-PadSLEEVE)")
+			(pintype "input")
+			(uuid "f7aaa53e-191a-443b-bd4e-edbb54a26177")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
 		(layer "F.Cu")
@@ -3341,117 +3246,6 @@
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
-		(uuid "b77d68dc-85a8-484f-9ecb-12ded3629e92")
-		(at 172.72 132.08)
-		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-		(tags "test point THT pad")
-		(property "Reference" "B2+1"
-			(at 0 -2.54 0)
-			(layer "F.SilkS")
-			(uuid "9b927c9a-d2e6-4cc8-9050-3c411475b16f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 1.75 0)
-			(layer "F.Fab")
-			(uuid "7d4f1614-3848-4b2f-817d-a66dc4be2977")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f86e3702-87bf-446d-8018-1374ec2aafd8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48aff2e9-b2bf-4133-b3a6-93a616518032")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/109a1974-f7ba-465a-ae7c-41f4da1c8cd0")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "8c3a9337-41d3-4ba0-b9cc-c8c357e61363")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "3ef44636-b1da-4249-9ab9-6a17110bedf8")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
-			(layer "F.Fab")
-			(uuid "d8b059ae-321b-4259-8eef-da0ff823830f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(drill 0.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(B1+1-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "a78fd18b-722f-486b-8cee-16368cb0c295")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-		(layer "F.Cu")
 		(uuid "b7d19cff-1af8-4029-af26-ce1fd2de43f3")
 		(at 144.78 132.08)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
@@ -3880,23 +3674,23 @@
 			(drill oval 3.05 0.76)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(B1-1-Pin_1)")
+			(net "Net-(DC_IN1-PadSLEEVE)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "039508e8-7a6e-4752-a53c-bd4620a3c01d")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "c12272e8-9175-43d1-a5c5-32c20797a07b")
-		(at 170.18 132.08)
-		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-		(tags "test point THT pad")
-		(property "Reference" "B2-1"
-			(at 0 -5.08 0)
+		(uuid "bc5c287c-541f-48ee-8438-7fb46525d95d")
+		(at 172.72 132.08 -90)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "U3"
+			(at 0 -2.38 90)
 			(layer "F.SilkS")
-			(uuid "004941fb-89c7-4511-aae6-09ca703041da")
+			(uuid "cc975b84-2e3d-4156-87a8-7dfba72889da")
 			(effects
 				(font
 					(size 1 1)
@@ -3904,10 +3698,10 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 0 1.75 0)
+		(property "Value" "~"
+			(at 0 4.92 90)
 			(layer "F.Fab")
-			(uuid "03340b58-43b1-46fb-93cd-938d4a2dd075")
+			(uuid "0de223fe-4ec2-45f9-a644-df3f9b424cce")
 			(effects
 				(font
 					(size 1 1)
@@ -3916,68 +3710,32 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25a7addb-1dca-4ded-a58e-50c8135fc5e5")
+			(uuid "7f5478b9-8729-4295-b20e-4bc9296d8b45")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8fce250a-34d2-49b5-9581-3c78612d8dcc")
+			(uuid "67863851-625e-48b7-848f-3b74027b4b5f")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/5f418111-8e6b-49e5-9f24-6a2f743a6554")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 90)
 			(layer "F.SilkS")
-			(uuid "30602778-4a5a-47b9-b568-d174f2d46a35")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "06264932-f12c-4f79-9e5e-ccc2445d74f2")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
-			(layer "F.Fab")
-			(uuid "d137ce32-255b-487a-9da6-a8cdf513c6f9")
+			(hide yes)
+			(uuid "e5c40d82-5c04-41bb-8936-93d8b28dc684")
 			(effects
 				(font
 					(size 1 1)
@@ -3985,18 +3743,181 @@
 				)
 			)
 		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(drill 0.7)
+		(path "/4afe0668-8272-4fc9-bc4c-2170d992766e")
+		(sheetname "/")
+		(sheetfile "a2b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.38 3.92)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9f73e854-533b-498b-996f-ae9a642b4f70")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fb45b678-5016-40db-83ad-69f5e5ec5ff9")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "385d5316-e6fe-40d4-b915-d3fd2cbf72da")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cd4dc0a7-d81a-44a9-afda-f8114c063c15")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e258d72c-d410-4d96-b157-3603368d3e8a")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "87ff62ef-4cf2-4175-8675-def8c5eefca0")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 4.32)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cc47d3e7-2738-41e1-b0da-8ca42fca8c5a")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a524d240-1bc4-4656-9bd1-5f047281ad4e")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d49e06a-21f1-4e91-8ad7-3caa67ddd707")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73d60a76-ed33-40ee-93ce-674de5617a91")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2db72634-8d19-463d-9ad6-0e74e0979ff2")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4742fa5f-8b29-4107-9d84-cd16719880a9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.27 0)
+			(layer "F.Fab")
+			(uuid "c2bbf05d-acf5-47d1-8fe1-a4d9914f1587")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 270)
+			(size 1.7 1.7)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(B1-1-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "69a4856f-00ab-4239-85f0-0c8f998ae34b")
+			(net "Net-(D1-K)")
+			(pintype "input")
+			(uuid "3623462e-c556-4e04-ab69-7381c37f07f7")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(DC_IN1-PadSLEEVE)")
+			(pintype "input")
+			(uuid "b87ae119-0193-482b-bc1e-57589ab5cd4a")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
@@ -4690,6 +4611,244 @@
 			)
 		)
 	)
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "d4b3b482-4e44-4ae7-a7b5-38c0f11ddb23")
+		(at 127 132.08 -90)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "U1"
+			(at 0 -2.38 90)
+			(layer "F.SilkS")
+			(uuid "ad28f342-727d-4e6a-bdf1-5639c24c39f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 4.92 90)
+			(layer "F.Fab")
+			(uuid "e8a9e778-b8f4-4845-a042-8811b7b7b01c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f918bb77-eeda-4fb8-ae00-7fa3644780d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a68809db-3873-46da-a16e-7d8efa34cce3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "469bf995-5ef0-4847-992b-60cea724c96a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/470a7340-59f4-4cf6-8946-789518b04d30")
+		(sheetname "/")
+		(sheetfile "a2b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.38 3.92)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "20361735-e72f-4b85-b255-470411c2e960")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "72d55255-bbf9-416f-afe1-c980f62a6e16")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "23255d59-299c-4e5a-87f5-266c4149f454")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0f05914f-5e11-477a-81e0-2afbc3fe7840")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "35a6257a-e139-439f-850d-5fe2d35a600d")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "26252e08-fa79-45a8-9a1d-f28f0ff73274")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 4.32)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1c39af2d-5e13-4b48-9684-68c5f1cb76aa")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2d6795e9-52aa-4864-a611-c3cd0856164b")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "75b68b4b-434d-49fc-9178-db1414c8e2cb")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "38b5792f-b546-4fbb-9e2e-0a031928cb69")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e621b00-6558-41de-9232-28459073b0eb")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a8f2a0ac-d1dc-48b1-ae4f-70e6b08f4aa9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.27 0)
+			(layer "F.Fab")
+			(uuid "5d7ed5f8-6e44-44ea-935a-a47bdbd69d77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(D1-K)")
+			(pintype "input")
+			(uuid "89fd23c1-45e9-4a41-ba2f-e56a6748c3ac")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(DC_IN1-PadSLEEVE)")
+			(pintype "input")
+			(uuid "bdab17e3-b198-4ea4-9884-d83e749ff942")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "e3c84be1-8a70-4aaf-aaf9-2104375f4ccd")
@@ -4798,117 +4957,6 @@
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "5320328f-89c3-4e8f-9aee-9b0b55a33c77")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-		(layer "F.Cu")
-		(uuid "e69fd100-99fb-4bb3-bc09-3967a93a3155")
-		(at 124.46 132.08)
-		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-		(tags "test point THT pad")
-		(property "Reference" "B1-1"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
-			(uuid "66df082c-48f3-40a1-8ceb-f8a8247e96d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 0 1.75 0)
-			(layer "F.Fab")
-			(uuid "169673a2-ccc9-4e7d-a3b0-303ed413cd08")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3cba68e9-2a2c-414e-8b62-1626033f199d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37c867e8-5d27-4912-b347-fc430e5797a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/1a04f3c4-5ca2-40e8-aa40-55057f92647e")
-		(sheetname "/")
-		(sheetfile "a2b.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "b9b272a0-c3ce-429e-9e5e-d2184588b164")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a77ba6d8-d613-467c-acd9-b24a0fa4eb9a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
-			(layer "F.Fab")
-			(uuid "9364e6b6-dbe5-4f3a-8454-f26d476bf321")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(drill 0.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(B1-1-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "aafa8771-cd5e-4b34-ad21-730b95edbb6f")
 		)
 		(embedded_fonts no)
 	)

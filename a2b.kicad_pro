@@ -483,7 +483,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "customHeaders"
+    ]
   },
   "meta": {
     "filename": "a2b.kicad_pro",
@@ -658,7 +660,7 @@
         "uuid": "2fb67ef4-3b78-48fd-981f-3213cdbc031d"
       }
     ],
-    "used_designators": "SW1-4,B2\\-1,AUDIO_IN_SW1,U1,D1,J1-2,J4,J6-21,AUDIO_IN1,B_T_OUT1,B1+1,R1,AUDIO_OUT1,AUDIO_OUT_SW1,B1\\-1,B2+1,B_R_IN1,T_IN1,B_R_OUT1,B_S_IN1,B_S_OUT1,B_T_IN1,DC_IN1,F1+1,F1\\-1,POWERSWITCH1,R_IN1,R_OUT1,S_IN1,S_OUT1,T_OUT1",
+    "used_designators": "U1",
     "variants": []
   },
   "sheets": [
