@@ -660,7 +660,7 @@
         "uuid": "2fb67ef4-3b78-48fd-981f-3213cdbc031d"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "pinout1-4,U1,U4-5",
     "variants": []
   },
   "sheets": [
