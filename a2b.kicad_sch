@@ -3227,10 +3227,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "470a7340-59f4-4cf6-8946-789518b04d30")
-		(property "Reference" "U1"
-			(at 130.81 128.2699 90)
+		(property "Reference" "V1"
+			(at 122.174 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3292,7 +3291,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "U1")
+					(reference "V1")
 					(unit 1)
 				)
 			)
@@ -3308,10 +3307,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4afe0668-8272-4fc9-bc4c-2170d992766e")
-		(property "Reference" "U3"
-			(at 184.15 128.2699 90)
+		(property "Reference" "V3"
+			(at 175.514 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3373,7 +3371,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "U3")
+					(reference "V3")
 					(unit 1)
 				)
 			)
@@ -3890,10 +3888,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90880567-bc34-492a-a0ad-82dacdbe0ff1")
-		(property "Reference" "U2"
-			(at 153.67 128.2699 90)
+		(property "Reference" "V2"
+			(at 145.034 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3955,7 +3952,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "U2")
+					(reference "V2")
 					(unit 1)
 				)
 			)
@@ -3973,7 +3970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1f39358-ea00-4eb8-a5a4-d575e796545d")
-		(property "Reference" "AUDIO_OUT_SW1"
+		(property "Reference" "AUDIO_OUT_SW2"
 			(at 232.41 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,7 +4048,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "AUDIO_OUT_SW1")
+					(reference "AUDIO_OUT_SW2")
 					(unit 1)
 				)
 			)
@@ -4162,7 +4159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c45dfb28-64be-43a1-b10f-2b816f599535")
-		(property "Reference" "pinout3"
+		(property "Reference" "PINOUT3"
 			(at 232.918 140.462 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,7 +4226,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "pinout3")
+					(reference "PINOUT3")
 					(unit 1)
 				)
 			)
@@ -4246,7 +4243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d50db583-8288-4ab0-8d72-226875a49203")
-		(property "Reference" "pinout2"
+		(property "Reference" "PINOUT2"
 			(at 55.118 135.382 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +4310,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "pinout2")
+					(reference "PINOUT2")
 					(unit 1)
 				)
 			)
@@ -4330,7 +4327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dca7c9ff-df53-468e-a656-d42ddc520f68")
-		(property "Reference" "pinout4"
+		(property "Reference" "PINOUT4"
 			(at 255.778 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4397,7 +4394,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "pinout4")
+					(reference "PINOUT4")
 					(unit 1)
 				)
 			)
@@ -4414,7 +4411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfb9e019-83e9-4fb2-9237-a05667032a34")
-		(property "Reference" "pinout1"
+		(property "Reference" "PINOUT1"
 			(at 32.258 135.382 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +4478,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "pinout1")
+					(reference "PINOUT1")
 					(unit 1)
 				)
 			)
