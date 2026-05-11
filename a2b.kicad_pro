@@ -658,7 +658,7 @@
         "uuid": "2fb67ef4-3b78-48fd-981f-3213cdbc031d"
       }
     ],
-    "used_designators": "J1,U1,U4-5,pinout1-4",
+    "used_designators": "SW1-2,J1,U1,U4-5,pinout1-4",
     "variants": []
   },
   "sheets": [
