@@ -950,180 +950,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DIP_x01"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_0_1"
-				(rectangle
-					(start -3.81 2.54)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_DIP_x02"
 			(pin_names
 				(offset 0)
@@ -1794,12 +1620,6 @@
 		(color 0 0 0 0)
 		(uuid "c30f2ec4-efaa-4425-a17c-1f3b0f89a838")
 	)
-	(junction
-		(at 139.7 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc49171e-fb5c-4243-b1c6-4fa22da6f6f6")
-	)
 	(wire
 		(pts
 			(xy 76.2 121.92) (xy 76.2 127)
@@ -1872,6 +1692,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 76.2) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1348dcc1-2dff-4fee-9f3b-c90703e1c21d")
+	)
+	(wire
+		(pts
 			(xy 60.96 119.38) (xy 73.66 119.38)
 		)
 		(stroke
@@ -1882,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 119.38) (xy 139.7 119.38)
+			(xy 121.92 119.38) (xy 144.78 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1899,16 +1729,6 @@
 			(type default)
 		)
 		(uuid "21449544-ef0a-4ce3-93dd-615d50d0300d")
-	)
-	(wire
-		(pts
-			(xy 139.7 46.99) (xy 139.7 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24433245-0c69-4fce-bf13-3dd35e3d9fa4")
 	)
 	(wire
 		(pts
@@ -1949,6 +1769,16 @@
 			(type default)
 		)
 		(uuid "3322c17b-ad89-48c0-94f3-65eb1f89c4be")
+	)
+	(wire
+		(pts
+			(xy 144.78 46.99) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0912a1-7bc6-4d2c-b5dd-3847ba2799c5")
 	)
 	(wire
 		(pts
@@ -2212,16 +2042,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 119.38) (xy 144.78 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a5eb217-c114-4b5e-bc51-4ad8ad43b014")
-	)
-	(wire
-		(pts
 			(xy 218.44 60.96) (xy 218.44 76.2)
 		)
 		(stroke
@@ -2262,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 46.99) (xy 139.7 46.99)
+			(xy 134.62 46.99) (xy 144.78 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2461,6 +2281,94 @@
 		(uuid "dd80e9fd-e833-4fb6-aaa1-eb8c67ad7f1d")
 	)
 	(symbol
+		(lib_id "Switch:SW_DIP_x02")
+		(at 144.78 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06e14e31-5744-45fb-ba39-c0a7ab343c16")
+		(property "Reference" "SW3"
+			(at 151.13 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_DIP_x02"
+			(at 151.13 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm"
+			(at 144.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 144.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "27441ddc-f442-43e5-a534-1f2a3cc192a4")
+		)
+		(pin "3"
+			(uuid "6e91038b-6f48-486b-976a-53328c7ea614")
+		)
+		(pin "2"
+			(uuid "367ee0ca-6b60-48d3-b7ab-0d4e6d0575db")
+		)
+		(pin "1"
+			(uuid "5d6b7c83-f6ae-4c77-ab85-56b3472f84d3")
+		)
+		(instances
+			(project "a2b"
+				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 147.32 90.17 0)
 		(unit 1)
@@ -2548,88 +2456,6 @@
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 147.32 68.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "359ff611-8bd4-4080-9ac4-9edfb396d75e")
-		(property "Reference" "SW3"
-			(at 151.13 67.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 151.13 69.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 147.32 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 147.32 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6f04cf25-1fb3-4996-9579-58d805d681da")
-		)
-		(pin "1"
-			(uuid "5ce3823f-0709-426c-bfe5-15f311e55460")
-		)
-		(instances
-			(project "a2b"
-				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
