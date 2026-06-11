@@ -2166,6 +2166,18 @@
 		(uuid "2c15edc9-7224-4a83-b70b-c1ef6d22b307")
 	)
 	(junction
+		(at 133.35 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d2ef14d-b4e8-4fed-afa9-adeb590feb79")
+	)
+	(junction
+		(at 133.35 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53e5c9e8-0e19-4fc3-a684-539bece65563")
+	)
+	(junction
 		(at 220.98 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2329,6 +2341,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b89b275-e768-4ab5-a011-f58004b6b3b4")
+	)
+	(wire
+		(pts
 			(xy 144.78 119.38) (xy 172.72 119.38)
 		)
 		(stroke
@@ -2479,6 +2501,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 46.99) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5042e491-dad2-48c0-a00f-4446c3ccd21a")
+	)
+	(wire
+		(pts
 			(xy 71.12 116.84) (xy 71.12 127)
 		)
 		(stroke
@@ -2559,7 +2591,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 41.91) (xy 144.78 41.91)
+			(xy 134.62 41.91) (xy 147.32 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2589,13 +2621,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 41.91) (xy 144.78 60.96)
+			(xy 127 83.82) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d8e8509-227a-4205-aec7-bc8a6f5975a6")
+		(uuid "8147d96a-9255-408c-8bf4-4032b55a9973")
 	)
 	(wire
 		(pts
@@ -2689,16 +2721,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 46.99) (xy 147.32 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dc1acff-d70f-4c9b-a2ae-9fa5097876ca")
-	)
-	(wire
-		(pts
 			(xy 66.04 63.5) (xy 71.12 63.5)
 		)
 		(stroke
@@ -2726,6 +2748,16 @@
 			(type default)
 		)
 		(uuid "93b189ae-d197-488c-9151-7ffe14f361de")
+	)
+	(wire
+		(pts
+			(xy 134.62 46.99) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e1e659-e221-4d2f-9f01-9b0e8eb2c7ed")
 	)
 	(wire
 		(pts
@@ -2766,16 +2798,6 @@
 			(type default)
 		)
 		(uuid "a692a479-b290-4c04-8d42-9a5a4ff2dee4")
-	)
-	(wire
-		(pts
-			(xy 134.62 46.99) (xy 147.32 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a69dbbf5-08b4-4d77-a1a2-02cb723245f6")
 	)
 	(wire
 		(pts
@@ -2866,6 +2888,16 @@
 			(type default)
 		)
 		(uuid "d436f9c6-ea15-4728-894d-61e1454d1cca")
+	)
+	(wire
+		(pts
+			(xy 147.32 41.91) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac5008f-2838-44c0-b33a-045c03e8acaf")
 	)
 	(wire
 		(pts
@@ -3150,6 +3182,98 @@
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 127 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07da1a27-c4d0-454d-b6b8-ba413d3f9df5")
+		(property "Reference" "D2"
+			(at 123.19 87.3126 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 123.19 84.7726 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 127 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 127 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 149.352 87.122 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3244d526-50da-4253-8ec1-2703d2247aa6")
+		)
+		(pin "1"
+			(uuid "79ecb351-9e99-4396-a1cc-14eb010b6c27")
+		)
+		(instances
+			(project "a2b"
+				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4097,7 +4221,8 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127.254 87.376 0)
+			(at 110.998 88.138 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
