@@ -43,6 +43,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -1622,6 +1623,19 @@
 				)
 			)
 		)
+		(property "ok" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f10e03ca-2a62-44f6-819e-f5043ef8baca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/56747cf7-e9f3-44b0-b772-218a880b0054")
 		(sheetname "/")
 		(sheetfile "a2b.kicad_sch")
@@ -1847,6 +1861,17 @@
 			(uuid "8c3213a4-3346-436d-b982-ab2fca2edbf1")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/kiModels/RAPC722X/RAPC722X.step"
+			(offset
+				(xyz 0 -7.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -3821,15 +3846,15 @@
 			(uuid "beeb8306-3e51-42ef-8554-9193ffd5c440")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal.step"
+		(model "${KIPRJMOD}/kiModels/3d/NMJ6HCD2.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 6.5 -8 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -4778,15 +4803,15 @@
 			(uuid "a5d948aa-0f5e-419e-b2f1-8d8f1a5c6cd4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal.step"
+		(model "${KIPRJMOD}/kiModels/3d/NMJ6HCD2.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 6.5 -8.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
