@@ -2111,13 +2111,13 @@
 		(embedded_fonts no)
 		(model "kicad-embed://PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -5 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 	)
@@ -2128,9 +2128,9 @@
 		(descr "3x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x9.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)")
 		(tags "DIP Switch SPST Slide 7.62mm 300mil")
 		(property "Reference" "SW1"
-			(at 3.7675 9.51 180)
+			(at 3.7675 9.51 0)
 			(layer "F.SilkS")
-			(uuid "d8a453ba-dfe4-4f8d-b745-0572688fdd6a")
+			(uuid "ca4358a1-bcb5-4a0c-ab06-cfd94ac75a8d")
 			(effects
 				(font
 					(size 1 1)
@@ -2139,9 +2139,9 @@
 			)
 		)
 		(property "Value" "SW_DIP_x03"
-			(at 3.81 2.525 180)
+			(at 3.81 2.525 0)
 			(layer "F.Fab")
-			(uuid "9cc157a9-0f23-4c0b-864b-add61c6e8727")
+			(uuid "e6502610-a006-4926-bc96-1b87618c6504")
 			(effects
 				(font
 					(size 1 1)
@@ -2153,7 +2153,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bb8fe44-c0a9-4791-ab15-546f96f311c5")
+			(uuid "766d6736-f65b-44df-bb9c-7885aa87e4cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2164,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79f99c5e-25cc-42e1-acff-580094bc470d")
+			(uuid "11180cbf-04d6-4f5e-abc1-babc46c85901")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3384,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 90)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -7296,13 +7296,13 @@
 		(embedded_fonts no)
 		(model "kicad-embed://PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -5 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 	)
