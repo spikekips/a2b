@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-06-15T11:18:30-04:00"
+    "CreationDate": "2026-06-17T09:23:04-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -88,6 +88,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
