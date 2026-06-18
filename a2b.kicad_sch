@@ -3582,7 +3582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d12996c-6b43-480e-81cd-a7596c029945")
-		(property "Reference" "AUDIO_OUT1"
+		(property "Reference" "AUDIO_2"
 			(at 241.3 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3658,7 +3658,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "AUDIO_OUT1")
+					(reference "AUDIO_2")
 					(unit 1)
 				)
 			)
@@ -3807,7 +3807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bf3b2d6-9080-41d0-96ae-e0c6147a551a")
-		(property "Reference" "AUDIO_IN1"
+		(property "Reference" "AUDIO_1"
 			(at 59.055 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +3881,7 @@
 		(instances
 			(project "a2b"
 				(path "/2fb67ef4-3b78-48fd-981f-3213cdbc031d"
-					(reference "AUDIO_IN1")
+					(reference "AUDIO_1")
 					(unit 1)
 				)
 			)
