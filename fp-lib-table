@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "headers") (type "KiCad") (uri "${KIPRJMOD}/kiModels/headers.pretty") (options "") (descr ""))
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/My_Library/Symbols/Library.pretty") (options "") (descr ""))
+	(lib (name "Library_u_d") (type "KiCad") (uri "${KIPRJMOD}/My_Library/Footprints/Library_u_d.pretty") (options "") (descr ""))
 )
