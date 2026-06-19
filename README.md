@@ -58,6 +58,8 @@ _Photo: An assembled a2b board connected to a breadboard_
 
 ![KiCad](https://img.shields.io/badge/KiCad-EDA%20Suite-00A99C?style=for-the-badge&logo=kicad&logoColor=white)
 
+Ver. 10.0 or greater
+
 ## 🚀 Getting Started (Building & Ordering)
 
 This project is hardware-focused, meaning "getting started" involves either reviewing the design files in KiCad or preparing the files for manufacturing.
@@ -156,7 +158,7 @@ This is an open-source hardware project, and we welcome contributions! If you ha
 Please ensure your contributions adhere to the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](license.md).
 
 ### Development Setup for Contributors
-To contribute to the design files, you'll need the KiCad EDA Suite installed. After cloning, simply open the `a2b.kicad_pro` file in KiCad.
+To contribute to the design files, you'll need the KiCad( > 10.0) EDA Suite installed. After cloning, simply open the `a2b.kicad_pro` file in KiCad.
 
 ## 📄 License
 
