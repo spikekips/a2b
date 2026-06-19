@@ -123,6 +123,12 @@ a2b/
 
 ## ⚙️ Usage & Pinout
 
+The a2b board is designed to be plugged directly into a breadboard. The output header provides audio input and output along with 9V in.
+
+T R S is your audio signal if you plug in a 1/4" jack into the plugs you can output the signal to your bread board or jump them to make a passthrough.
+
+Your voltage outputs are determined by the polarity of your power supply. Wether or not you have a positive or negative center pin on your powersupply is determined by the LEDs. Determine the polarity from which light is on. The polarity symbol on the lit up side will be your reference for your Vout.
+
 <!-- TODO: Add a clear diagram or table explaining the pinout of the breadboard headers and how to connect audio/power inputs. -->
 <!-- Example:
 ### Connecting to a Breadboard
