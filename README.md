@@ -30,11 +30,13 @@ Whether you're prototyping audio circuits, experimenting with effects pedals, or
 -   **Open Hardware**: Licensed under CERN-OHL-S-2.0, promoting collaboration and reuse.
 
 ## 📸 Renders & Photos
-<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/08ac131d-37e8-417a-a7d4-89ae227e50ae" />
+[<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/38faa650-aca6-4a1a-9365-aff10bbd1636" />](https://github.com/spikekips/a2b/blob/u_d/My_Library/Pictures/a2b_back.png?raw=true)
 
-<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/36cec933-eab1-4333-9ebd-e8493348e544" />
+[<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/414d04e8-8e45-4a31-9c5c-b4d51fab0f2f" />](https://github.com/spikekips/a2b/blob/u_d/My_Library/Pictures/a2b_front.png?raw=true)
 
-<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/3de7e97e-6d73-4145-9046-d4f0e30ddba9" />
+
+[<img width="882" height="825" alt="image" src="https://github.com/spikekips/a2b/blob/u_d/My_Library/Pictures/a2b_side.png?raw=true" />](https://github.com/spikekips/a2b/blob/u_d/My_Library/Pictures/a2b_side.png?raw=true)
+
 
 
 <!-- TODO: Add actual 3D renders or photos of the physical PCB/assembled board here. -->
