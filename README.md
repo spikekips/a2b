@@ -30,11 +30,11 @@ Whether you're prototyping audio circuits, experimenting with effects pedals, or
 -   **Open Hardware**: Licensed under CERN-OHL-S-2.0, promoting collaboration and reuse.
 
 ## 📸 Renders & Photos
-<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/f8519a5a-3a60-49c6-bbe3-f9933e0f60c4" />
+<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/08ac131d-37e8-417a-a7d4-89ae227e50ae" />
 
-<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/6118bc0b-574e-44c9-bd95-04bb8c9cc919" />
+<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/36cec933-eab1-4333-9ebd-e8493348e544" />
 
-<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/2f9b9286-43c0-4be2-b4c5-9063d649d080" />
+<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/3de7e97e-6d73-4145-9046-d4f0e30ddba9" />
 
 
 <!-- TODO: Add actual 3D renders or photos of the physical PCB/assembled board here. -->
