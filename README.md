@@ -181,7 +181,7 @@ This project is licensed under the [CERN Open Hardware Licence Version 2 - Stron
 
 <div align="center">
 
-** Star this repo if you find it helpful!**
+**Star this repo if you find it helpful!**
 
 Made by [spikekips](https://github.com/spikekips)
 
