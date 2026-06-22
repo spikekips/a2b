@@ -1,4 +1,4 @@
-<div align="center">
+<!--<div align="center">-->
 
 # a2b - Audio & Power to Breadboard Interface
 
@@ -12,7 +12,7 @@
 
 **A convenient open-source hardware interface board for integrating 1/4" audio and 9V DC power with breadboard projects.**
 
-</div>
+<!-- </div> -->
 
 ## Overview
 
