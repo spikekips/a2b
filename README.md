@@ -1,4 +1,4 @@
-# 🎶 a2b - Audio & Power to Breadboard Interface
+# a2b - Audio & Power to Breadboard Interface
 
 <div align="center">
 
@@ -14,13 +14,13 @@
 
 </div>
 
-## 📖 Overview
+## Overview
 
 The `a2b_u_d` project provides an open-source hardware solution for seamlessly integrating common audio and power sources directly into your breadboard experiments. This board is designed to take standard 1/4" audio input jacks and a 9V DC power input, breaking them out into breadboard-friendly header pins.
 
 Whether you're prototyping audio circuits, experimenting with effects pedals, or simply need a stable power supply for your digital or analog breadboard designs, `a2b_u_d` simplifies the connection process, reducing clutter and the need for awkward jumper wire setups. It's ideal for hobbyists, educators, and professional engineers working on audio electronics and general prototyping.
 
-## ✨ Features
+## Features
 
 -   **1/4" Audio Input Jacks**: Standard stereo 1/4" (6.35mm) jacks for easy connection of audio sources.
 -   **9V DC Power Input**: A dedicated 9V DC jack for powering the board and providing a stable voltage to your breadboard.
@@ -29,7 +29,7 @@ Whether you're prototyping audio circuits, experimenting with effects pedals, or
 -   **Ready-to-Manufacture Files**: Includes Gerber files and a Bill of Materials (BOM) for easy PCB fabrication and component sourcing.
 -   **Open Hardware**: Licensed under CERN-OHL-S-2.0, promoting collaboration and reuse.
 
-## 📸 Renders & Photos
+## Renders & Photos
 [<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/38faa650-aca6-4a1a-9365-aff10bbd1636" />](https://github.com/spikekips/a2b/blob/u_d/My_Library/Pictures/a2b_back.png?raw=true)
 
 [<img width="882" height="825" alt="image" src="https://github.com/user-attachments/assets/414d04e8-8e45-4a31-9c5c-b4d51fab0f2f" />](https://github.com/spikekips/a2b/blob/u_d/My_Library/Pictures/a2b_front.png?raw=true)
@@ -52,7 +52,7 @@ _3D Render: Bottom View with component outlines_
 _Photo: An assembled a2b board connected to a breadboard_
 -->
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **ECAD Software:**
 
@@ -60,7 +60,7 @@ _Photo: An assembled a2b board connected to a breadboard_
 
 Ver. 10.0 or greater
 
-## 🚀 Getting Started (Building & Ordering)
+## Getting Started (Building & Ordering)
 
 This project is hardware-focused, meaning "getting started" involves either reviewing the design files in KiCad or preparing the files for manufacturing.
 
@@ -99,7 +99,8 @@ The repository includes all necessary files to order the `a2b` PCB and assemble 
     *   Once you receive the PCBs and components, assemble them by soldering the components onto the board according to the schematic (`a2b.kicad_sch`) and the PCB layout (`a2b.kicad_pcb`).
     *   Refer to the silkscreen markings on the PCB for component placement.
 
-## 📁 Project Structure
+<!--
+## Project Structure
 
 ```
 a2b/
@@ -120,8 +121,9 @@ a2b/
 ├── README.md               # This README file
 └── sym-lib-table           # KiCad symbol library table configuration
 ```
+-->
 
-## ⚙️ Usage & Pinout
+## Usage & Pinout
 
 The a2b board is designed to be plugged directly into a breadboard. The output header provides audio input and output along with 9V in.
 
@@ -150,7 +152,7 @@ The `a2b` board is designed to be plugged directly into a breadboard. The output
 Connect your 1/4" audio source to the input jacks and a 9V DC power supply to the barrel jack.
 -->
 
-## 🤝 Contributing
+## Contributing
 
 This is an open-source hardware project, and we welcome contributions! If you have suggestions for improvements, find errors in the design, or want to contribute to documentation:
 
@@ -166,26 +168,26 @@ Please ensure your contributions adhere to the [CERN Open Hardware Licence Versi
 ### Development Setup for Contributors
 To contribute to the design files, you'll need the KiCad( > 10.0) EDA Suite installed. After cloning, simply open the `a2b.kicad_pro` file in KiCad.
 
-## 📄 License
+## License
 
 This project is licensed under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](license.md) - see the `license.md` file for full details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 -   **KiCad Community**: For providing an excellent open-source ECAD suite that makes projects like this possible.
 
-## 📞 Support & Contact
+## Support & Contact
 
--   🐛 Issues: [GitHub Issues](https://github.com/spikekips/a2b/issues)
+-   Issues: [GitHub Issues](https://github.com/spikekips/a2b/issues)
 -   Feel free to reach out to the repository owner, [spikekips](https://github.com/spikekips), for questions or support.
 
 ---
 
 <div align="center">
 
-**⭐ Star this repo if you find it helpful!**
+** Star this repo if you find it helpful!**
 
-Made with ❤️ by [spikekips](https://github.com/spikekips)
+Made by me, [spikekips](https://github.com/spikekips)
 
 </div>
 
