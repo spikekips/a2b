@@ -1,6 +1,6 @@
-# a2b - Audio & Power to Breadboard Interface
+<!--<div align="center">-->
 
-<div align="center">
+# a2b - Audio & Power to Breadboard Interface
 
 [![GitHub stars](https://img.shields.io/github/stars/spikekips/a2b?style=for-the-badge)](https://github.com/spikekips/a2b/stargazers)
 
@@ -12,7 +12,7 @@
 
 **A convenient open-source hardware interface board for integrating 1/4" audio and 9V DC power with breadboard projects.**
 
-</div>
+<!-- </div> -->
 
 ## Overview
 
