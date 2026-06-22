@@ -1,5 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "headers") (type "KiCad") (uri "${KIPRJMOD}/kiModels/headers.pretty") (options "") (descr ""))
-	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/My_Library/Symbols/Library.pretty") (options "") (descr ""))
-)
