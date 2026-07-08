@@ -11,14 +11,12 @@
             "id": "4db1d0a3e0885f49",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "a2b_dc/My_Library/Pictures/a2b_front.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "a2b_front"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "a2b_dc/My_Library/Pictures/a2b_front.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for a2b_front"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "a2b_dc/My_Library/Pictures/a2b_front.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from a2b_front"
             }
           },
           {
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "a2b_dc/My_Library/Pictures/a2b_front.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of a2b_front"
             }
           },
           {
@@ -196,28 +194,28 @@
   },
   "active": "4db1d0a3e0885f49",
   "lastOpenFiles": [
-    "a2b_u/My_Library/pictures/a2b_side.png",
-    "a2b_dc/My_Library/pictures/a2b_back.png",
-    "a2b_dc/My_Library/pictures/a2b_front.png",
-    "a2b_dc/My_Library/pictures/a2b_side.png",
-    "a2b_d/My_Library/pictures/a2b_back.png",
-    "a2b_d/My_Library/pictures/a2b_front.png",
-    "a2b_d/My_Library/pictures/a2b_side.png",
-    "a2b_d/My_Library/pictures",
-    "a2b_dc/My_Library/pictures",
-    "a2b_u/My_Library/pictures/a2b_Front.png",
-    "a2b_u/My_Library/pictures/a2b_back.png",
+    "a2b_dc/a2b-backups/a2b-2026-07-08_152842.zip",
+    "a2b_dc/a2b-backups",
+    "a2b_dc/My_Library/Pictures/a2b_back.png",
+    "a2b_dc/My_Library/Pictures/a2b_front.png",
+    "a2b_dc/My_Library/Pictures/a2b_side.png",
+    "a2b_u/My_Library/Pictures/a2b_back.png",
     "README.md",
+    "a2b_dc/~a2b.kicad_pcb.lck",
+    "a2b_dc/~a2b.kicad_pro.lck",
+    "a2b_u/a2b-backups/a2b-2026-07-08_152305.zip",
+    "a2b_u/a2b-backups",
+    "a2b_u/~a2b.kicad_pro.lck",
+    "a2b_u/My_Library/Pictures/a2b_side.png",
+    "a2b_d/My_Library/Pictures/a2b_back.png",
+    "a2b_d/My_Library/Pictures/a2b_front.png",
+    "a2b_d/My_Library/Pictures/a2b_side.png",
+    "a2b_d/My_Library/Pictures",
+    "a2b_dc/My_Library/Pictures",
+    "a2b_u/My_Library/Pictures/a2b_Front.png",
     "bom/ibom.html",
     "bom",
-    "a2b_u/gerber.zip",
-    "a2b_u/a2b-backups/a2b-2026-07-08_135850.zip",
-    "a2b_u/a2b-backups/a2b-2026-07-08_135845.zip",
-    "a2b_u/_autosave-a2b.kicad_pcb",
-    "a2b_u/~a2b.kicad_pcb.lck",
-    "a2b_u/a2b.zip",
     "license.md",
-    "a2b/My_Library/pictures/a2b_side.png",
-    "a2b/My_Library/pictures/a2b_back.png"
+    "a2b/My_Library/pictures/a2b_side.png"
   ]
 }
