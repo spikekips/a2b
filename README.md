@@ -16,9 +16,9 @@
 
 ## Overview
 
-The `a2b_u_d` project provides an open-source hardware solution for seamlessly integrating common audio and power sources directly into your breadboard experiments. This board is designed to take standard 1/4" audio input jacks and a 9V DC power input, breaking them out into breadboard-friendly header pins.
+The `a2b` project provides an open-source hardware solution for seamlessly integrating common audio and power sources directly into your breadboard experiments. This board is designed to take standard 1/4" audio input jacks and a 9V DC power input, breaking them out into breadboard-friendly header pins.
 
-Whether you're prototyping audio circuits, experimenting with effects pedals, or simply need a stable power supply for your digital or analog breadboard designs, `a2b_u_d` simplifies the connection process, reducing clutter and the need for awkward jumper wire setups. It's ideal for hobbyists, educators, and professional engineers working on audio electronics and general prototyping.
+Whether you're prototyping audio circuits, experimenting with effects pedals, or simply need a stable power supply for your digital or analog breadboard designs, `a2b` simplifies the connection process, reducing clutter and the need for awkward jumper wire setups. It's ideal for hobbyists, educators, and professional engineers working on audio electronics and general prototyping.
 
 ## Features
 

@@ -11,12 +11,14 @@
             "id": "4db1d0a3e0885f49",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "a2b_u/My_Library/pictures/a2b_side.png"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "a2b_side"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "a2b_u/My_Library/pictures/a2b_side.png",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for a2b_side"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "a2b_u/My_Library/pictures/a2b_side.png",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from a2b_side"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -154,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "a2b_u/My_Library/pictures/a2b_side.png",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of a2b_side"
+              "title": "Outline of README"
             }
           },
           {
@@ -192,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1588c60481fe5ca4",
+  "active": "4db1d0a3e0885f49",
   "lastOpenFiles": [
+    "a2b_u/My_Library/pictures/a2b_side.png",
     "a2b_dc/My_Library/pictures/a2b_back.png",
     "a2b_dc/My_Library/pictures/a2b_front.png",
     "a2b_dc/My_Library/pictures/a2b_side.png",
@@ -214,7 +217,6 @@
     "a2b_u/~a2b.kicad_pcb.lck",
     "a2b_u/a2b.zip",
     "license.md",
-    "a2b_u/My_Library/pictures/a2b_side.png",
     "a2b/My_Library/pictures/a2b_side.png",
     "a2b/My_Library/pictures/a2b_back.png"
   ]
