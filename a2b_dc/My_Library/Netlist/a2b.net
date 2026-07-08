@@ -1,0 +1,1838 @@
+(export
+	(version "E")
+	(design
+		(source "/home/flower/Documents/ki/a2b/a2b.kicad_sch")
+		(date "2026-06-17T08:16:41")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "A2B")
+				(company)
+				(rev "1")
+				(date "2026-05-26")
+				(source "a2b.kicad_sch")
+				(comment
+					(number "1")
+					(value "This board takes input froma 1/4\" jack and makes it easy to move it to a  he")
+				)
+				(comment
+					(number "2")
+					(value "The board also takes in 9V DC and brings it to the bread board")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "AUDIO_IN1")
+			(value "NMJ6HCD2")
+			(footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal")
+			(datasheet "https://www.neutrik.com/en/product/nmj6hcd2")
+			(description "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins")
+			(fields
+				(field
+					(name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal")
+				(field
+					(name "Datasheet") "https://www.neutrik.com/en/product/nmj6hcd2")
+				(field
+					(name "Description") "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins")
+			)
+			(libsource
+				(lib "Connector_Audio")
+				(part "NMJ6HCD2")
+				(description "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "audio jack receptacle stereo headphones connector neutrik")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Jack*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7bf3b2d6-9080-41d0-96ae-e0c6147a551a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "S")
+						)
+						(pin
+							(num "SN")
+						)
+						(pin
+							(num "R")
+						)
+						(pin
+							(num "RN")
+						)
+						(pin
+							(num "T")
+						)
+						(pin
+							(num "TN")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "AUDIO_OUT1")
+			(value "NMJ6HCD2")
+			(footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal")
+			(datasheet "https://www.neutrik.com/en/product/nmj6hcd2")
+			(description "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins")
+			(fields
+				(field
+					(name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal")
+				(field
+					(name "Datasheet") "https://www.neutrik.com/en/product/nmj6hcd2")
+				(field
+					(name "Description") "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins")
+			)
+			(libsource
+				(lib "Connector_Audio")
+				(part "NMJ6HCD2")
+				(description "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "audio jack receptacle stereo headphones connector neutrik")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Jack*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4d12996c-6b43-480e-81cd-a7596c029945")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "S")
+						)
+						(pin
+							(num "SN")
+						)
+						(pin
+							(num "R")
+						)
+						(pin
+							(num "RN")
+						)
+						(pin
+							(num "T")
+						)
+						(pin
+							(num "TN")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "LED")
+			(footprint "LED_THT:LED_D5.0mm")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c9460903-3f90-485b-9fab-a810cd183cf2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "LED")
+			(footprint "LED_THT:LED_D5.0mm")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "07da1a27-c4d0-454d-b6b8-ba413d3f9df5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "DC_IN1")
+			(value "RAPC722X")
+			(footprint "RAPC722X:SWITCHCRAFT_RAPC722X")
+			(fields
+				(field
+					(name "PARTREV") "A")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "11 mm")
+				(field
+					(name "MANUFACTURER") "Switchcraft")
+				(field
+					(name "Footprint") "RAPC722X:SWITCHCRAFT_RAPC722X")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "RAPC722X")
+				(part "RAPC722X")
+				(description "")
+			)
+			(property
+				(name "PARTREV")
+				(value "A")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "11 mm")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Switchcraft")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "56747cf7-e9f3-44b0-b772-218a880b0054")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "PIN")
+						)
+						(pin
+							(num "SHUNT")
+						)
+						(pin
+							(num "SLEEVE")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "PINOUT1")
+			(value "~")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "KiLib_Generator") "connector/pin_header_socket")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "customHeaders")
+				(part "3pinHeader")
+				(description "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "connector/pin_header_socket")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dfb9e019-83e9-4fb2-9237-a05667032a34")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "PINOUT2")
+			(value "~")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "KiLib_Generator") "connector/pin_header_socket")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "customHeaders")
+				(part "3pinHeader")
+				(description "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "connector/pin_header_socket")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dca7c9ff-df53-468e-a656-d42ddc520f68")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "PINOUT3")
+			(value "~")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "KiLib_Generator") "connector/pin_header_socket")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "customHeaders")
+				(part "3pinHeader")
+				(description "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "connector/pin_header_socket")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d50db583-8288-4ab0-8d72-226875a49203")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "PINOUT4")
+			(value "~")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "KiLib_Generator") "connector/pin_header_socket")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "customHeaders")
+				(part "3pinHeader")
+				(description "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "connector/pin_header_socket")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c45dfb28-64be-43a1-b10f-2b816f599535")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1k")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "86b5c724-c235-4ac6-b4e9-16b2e0c6d5fe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "SW_DIP_x03")
+			(footprint "Button_Switch_THT:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm")
+			(description "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_DIP_x03")
+				(description "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "dip switch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SW?DIP?x3*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fe983acd-f6ca-4c7e-aea1-7e438ddc55f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "SW_DIP_x03")
+			(footprint "Button_Switch_THT:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm")
+			(description "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_DIP_x03")
+				(description "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "dip switch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SW?DIP?x3*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "13e65d6b-d820-4395-9116-4370ec5c32b2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW3")
+			(value "SW_DIP_x02")
+			(footprint "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm")
+			(description "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_DIP_x02")
+				(description "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "dip switch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SW?DIP?x2*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "06e14e31-5744-45fb-ba39-c0a7ab343c16")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "V1")
+			(value "~")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "KiLib_Generator") "connector/pin_header_socket")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "customHeaders")
+				(part "2pinHeader")
+				(description "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "connector/pin_header_socket")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "90880567-bc34-492a-a0ad-82dacdbe0ff1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "V2")
+			(value "~")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "KiLib_Generator") "connector/pin_header_socket")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "2pinHeader_1")
+				(description "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "connector/pin_header_socket")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22f33c28-cabe-43cc-9c7f-cc2394f570a7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "V3")
+			(value "~")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "KiLib_Generator") "connector/pin_header_socket")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "2pinHeader_1")
+				(description "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "connector/pin_header_socket")
+			)
+			(property
+				(name "Sheetname")
+				(value "a2b")
+			)
+			(property
+				(name "Sheetfile")
+				(value "a2b.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4afe0668-8272-4fc9-bc4c-2170d992766e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "")
+			(part "2pinHeader_1")
+			(fields
+				(field
+					(name "Reference") "V3")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "KiLib_Generator") "connector/pin_header_socket")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Audio")
+			(part "NMJ6HCD2")
+			(description "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins")
+			(docs "https://www.neutrik.com/en/product/nmj6hcd2")
+			(footprints
+				(fp "Jack*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "NMJ6HCD2")
+				(field
+					(name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal")
+				(field
+					(name "Datasheet") "https://www.neutrik.com/en/product/nmj6hcd2")
+				(field
+					(name "Description") "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins")
+			)
+			(pins
+				(pin
+					(num "R")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "RN")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "S")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "SN")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "T")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "TN")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RAPC722X")
+			(part "RAPC722X")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "RAPC722X")
+				(field
+					(name "Footprint") "RAPC722X:SWITCHCRAFT_RAPC722X")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "PARTREV") "A")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "11 mm")
+				(field
+					(name "MANUFACTURER") "Switchcraft")
+			)
+			(pins
+				(pin
+					(num "PIN")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "SHUNT")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "SLEEVE")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_DIP_x02")
+			(description "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			(footprints
+				(fp "SW?DIP?x2*")
+			)
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_DIP_x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_DIP_x03")
+			(description "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			(footprints
+				(fp "SW?DIP?x3*")
+			)
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_DIP_x03")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "customHeaders")
+			(part "2pinHeader")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "customHeaders")
+			(part "3pinHeader")
+			(fields
+				(field
+					(name "Reference") "pinout")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector_Audio")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Audio.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+		(library
+			(logical "customHeaders")
+			(uri "/home/flower/Documents/ki/a2b/customHeaders.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/Net-(PINOUT2-Pad2)")
+			(class "Default")
+			(node
+				(ref "PINOUT2")
+				(pin "2")
+				(pintype "input")
+			)
+			(node
+				(ref "PINOUT4")
+				(pin "2")
+				(pintype "input")
+			)
+			(node
+				(ref "SW2")
+				(pin "5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/Net-(PINOUT2-Pad3)")
+			(class "Default")
+			(node
+				(ref "PINOUT2")
+				(pin "3")
+				(pintype "input")
+			)
+			(node
+				(ref "PINOUT4")
+				(pin "3")
+				(pintype "input")
+			)
+			(node
+				(ref "SW2")
+				(pin "4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "Net-(AUDIO_IN1-PadR)")
+			(class "Default")
+			(node
+				(ref "AUDIO_IN1")
+				(pin "R")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(AUDIO_IN1-PadS)")
+			(class "Default")
+			(node
+				(ref "AUDIO_IN1")
+				(pin "S")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "Net-(AUDIO_IN1-PadT)")
+			(class "Default")
+			(node
+				(ref "AUDIO_IN1")
+				(pin "T")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "Net-(AUDIO_OUT1-PadR)")
+			(class "Default")
+			(node
+				(ref "AUDIO_OUT1")
+				(pin "R")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "Net-(AUDIO_OUT1-PadS)")
+			(class "Default")
+			(node
+				(ref "AUDIO_OUT1")
+				(pin "S")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "Net-(AUDIO_OUT1-PadT)")
+			(class "Default")
+			(node
+				(ref "AUDIO_OUT1")
+				(pin "T")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "Net-(D1-A)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "3")
+				(pintype "passive")
+			)
+			(node
+				(ref "V1")
+				(pin "2")
+				(pintype "input")
+			)
+			(node
+				(ref "V2")
+				(pin "1")
+				(pintype "input")
+			)
+			(node
+				(ref "V2")
+				(pin "3")
+				(pintype "input")
+			)
+			(node
+				(ref "V3")
+				(pin "1")
+				(pintype "input")
+			)
+			(node
+				(ref "V3")
+				(pin "3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "Net-(D1-K)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "Net-(DC_IN1-PadPIN)")
+			(class "Default")
+			(node
+				(ref "DC_IN1")
+				(pin "PIN")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "Net-(DC_IN1-PadSLEEVE)")
+			(class "Default")
+			(node
+				(ref "DC_IN1")
+				(pin "SLEEVE")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "Net-(PINOUT1-Pad1)")
+			(class "Default")
+			(node
+				(ref "PINOUT1")
+				(pin "1")
+				(pintype "input")
+			)
+			(node
+				(ref "PINOUT3")
+				(pin "1")
+				(pintype "input")
+			)
+			(node
+				(ref "SW1")
+				(pin "6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "Net-(PINOUT1-Pad2)")
+			(class "Default")
+			(node
+				(ref "PINOUT1")
+				(pin "2")
+				(pintype "input")
+			)
+			(node
+				(ref "PINOUT3")
+				(pin "2")
+				(pintype "input")
+			)
+			(node
+				(ref "SW1")
+				(pin "5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "Net-(PINOUT1-Pad3)")
+			(class "Default")
+			(node
+				(ref "PINOUT1")
+				(pin "3")
+				(pintype "input")
+			)
+			(node
+				(ref "PINOUT3")
+				(pin "3")
+				(pintype "input")
+			)
+			(node
+				(ref "SW1")
+				(pin "4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "Net-(PINOUT2-Pad1)")
+			(class "Default")
+			(node
+				(ref "PINOUT2")
+				(pin "1")
+				(pintype "input")
+			)
+			(node
+				(ref "PINOUT4")
+				(pin "1")
+				(pintype "input")
+			)
+			(node
+				(ref "SW2")
+				(pin "6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "Net-(R1-Pad2)")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "4")
+				(pintype "passive")
+			)
+			(node
+				(ref "V1")
+				(pin "1")
+				(pintype "input")
+			)
+			(node
+				(ref "V2")
+				(pin "2")
+				(pintype "input")
+			)
+			(node
+				(ref "V2")
+				(pin "4")
+				(pintype "input")
+			)
+			(node
+				(ref "V3")
+				(pin "2")
+				(pintype "input")
+			)
+			(node
+				(ref "V3")
+				(pin "4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(AUDIO_IN1-PadRN)")
+			(class "Default")
+			(node
+				(ref "AUDIO_IN1")
+				(pin "RN")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(AUDIO_IN1-PadSN)")
+			(class "Default")
+			(node
+				(ref "AUDIO_IN1")
+				(pin "SN")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(AUDIO_IN1-PadTN)")
+			(class "Default")
+			(node
+				(ref "AUDIO_IN1")
+				(pin "TN")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(AUDIO_OUT1-PadRN)")
+			(class "Default")
+			(node
+				(ref "AUDIO_OUT1")
+				(pin "RN")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(AUDIO_OUT1-PadSN)")
+			(class "Default")
+			(node
+				(ref "AUDIO_OUT1")
+				(pin "SN")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(AUDIO_OUT1-PadTN)")
+			(class "Default")
+			(node
+				(ref "AUDIO_OUT1")
+				(pin "TN")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(DC_IN1-PadSHUNT)")
+			(class "Default")
+			(node
+				(ref "DC_IN1")
+				(pin "SHUNT")
+				(pintype "passive")
+			)
+		)
+	)
+)
