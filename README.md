@@ -1,6 +1,6 @@
 <!--<div align="center">-->
 
-# a2b - Audio & Power to Breadboard Interface
+# A2B - Audio & Power to Breadboard Interface
 
 [![GitHub stars](https://img.shields.io/github/stars/spikekips/a2b?style=for-the-badge)](https://github.com/spikekips/a2b/stargazers)
 
