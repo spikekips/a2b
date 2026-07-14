@@ -3264,6 +3264,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "LED/THT"
+			(at 127 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3244d526-50da-4253-8ec1-2703d2247aa6")
 		)
@@ -3777,6 +3788,17 @@
 				(justify bottom)
 			)
 		)
+		(property "ok" ""
+			(at 127 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SHUNT"
 			(uuid "f254ac0d-f493-48c3-b47b-e4a0e3666421")
 		)
@@ -3943,6 +3965,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 133.35 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4222,6 +4255,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 110.998 88.138 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "LED/THT"
+			(at 133.35 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

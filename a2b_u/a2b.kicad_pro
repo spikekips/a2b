@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -645,13 +645,18 @@
       {
         "filename": "a2b.kicad_sch",
         "name": "a2b",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "2fb67ef4-3b78-48fd-981f-3213cdbc031d"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "2fb67ef4-3b78-48fd-981f-3213cdbc031d",
+      "a2b"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

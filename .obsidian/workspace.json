@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d20d87859945181e",
+        "id": "979b2769b2bc0a49",
         "type": "tabs",
         "children": [
           {
-            "id": "4db1d0a3e0885f49",
+            "id": "b31459e11673124e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -194,29 +190,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4db1d0a3e0885f49",
+  "active": "1588c60481fe5ca4",
   "lastOpenFiles": [
-    "a2b_dc/My_Library/Pictures/a2b_front.png",
+    "a2b_d/gerber.zip",
+    "a2b_u/gerber.zip",
+    "a2b_u/a2b-backups/a2b-2026-07-14_145112.zip",
+    "a2b_u/~a2b.kicad_pro.lck",
+    "a2b_d/a2b-backups/a2b-2026-07-14_145049.zip",
+    "a2b_d/a2b-backups/a2b-2026-07-14_145022.zip",
+    "a2b_d/a2b-backups/a2b-2026-07-14_145021.zip",
+    "a2b_d/~a2b.kicad_pro.lck",
+    "a2b_d/_autosave-a2b.kicad_pcb",
+    "a2b_d/a2b-backups/a2b-2026-07-14_144657.zip",
+    "a2b_d/~a2b.kicad_pcb.lck",
+    "My_Library/Pictures/a2b_side.png",
+    "My_Library/Pictures/a2b_back.png",
+    "My_Library/Pictures/a2b_Front.png",
     "README.md",
+    "a2b_dc/My_Library/Pictures/a2b_front.png",
     "license.md",
     "a2b_u/My_Library/Pictures/a2b_Front.png",
-    "a2b_dc/a2b-backups/a2b-2026-07-08_152842.zip",
-    "a2b_dc/a2b-backups",
     "a2b_dc/My_Library/Pictures/a2b_back.png",
     "a2b_dc/My_Library/Pictures/a2b_side.png",
     "a2b_u/My_Library/Pictures/a2b_back.png",
-    "a2b_dc/~a2b.kicad_pcb.lck",
-    "a2b_dc/~a2b.kicad_pro.lck",
-    "a2b_u/a2b-backups/a2b-2026-07-08_152305.zip",
-    "a2b_u/a2b-backups",
-    "a2b_u/~a2b.kicad_pro.lck",
     "a2b_u/My_Library/Pictures/a2b_side.png",
-    "a2b_d/My_Library/Pictures/a2b_back.png",
-    "a2b_d/My_Library/Pictures/a2b_front.png",
-    "a2b_d/My_Library/Pictures/a2b_side.png",
-    "a2b_d/My_Library/Pictures",
-    "a2b_dc/My_Library/Pictures",
-    "bom/ibom.html",
-    "a2b/My_Library/pictures/a2b_side.png"
+    "a2b_d/My_Library/Pictures/a2b_back.png"
   ]
 }

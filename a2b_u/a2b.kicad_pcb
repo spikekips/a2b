@@ -1526,7 +1526,7 @@
 	(footprint "RAPC722X:SWITCHCRAFT_RAPC722X"
 		(layer "F.Cu")
 		(uuid "1d6ac403-1016-4cab-8b08-3a8bc9cb387c")
-		(at 147.59 76.935 180)
+		(at 147.5851 76.935 180)
 		(property "Reference" "DC_IN1"
 			(at -0.97875 -8.89 0)
 			(layer "F.SilkS")
@@ -1639,12 +1639,6 @@
 		(path "/56747cf7-e9f3-44b0-b772-218a880b0054")
 		(sheetname "/")
 		(sheetfile "a2b.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "PIN" "SHUNT" "SLEEVE")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1778,7 +1772,7 @@
 			(uuid "f954097d-cfec-4ea5-abd6-43a8464391a9")
 		)
 		(fp_line
-			(start -5.75 -7.64)
+			(start -5.75 -0.95)
 			(end -5.75 7.74)
 			(stroke
 				(width 0.05)
@@ -1786,6 +1780,46 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "11894968-c69d-4fa1-a0ca-fe27fd1bea11")
+		)
+		(fp_line
+			(start -5.75 -7.64)
+			(end -5.75 -5.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9ae3e9b4-34b3-42a3-9289-ed195f3c6525")
+		)
+		(fp_line
+			(start -7.0625 -0.95)
+			(end -5.75 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "69e1d1b2-0fd0-4325-a3aa-dd622a70693f")
+		)
+		(fp_line
+			(start -7.0625 -5.5)
+			(end -5.75 -5.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "87a81fd2-1ecc-4ebd-b733-2e443a5c969c")
+		)
+		(fp_line
+			(start -7.0625 -5.5)
+			(end -7.0625 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50541205-9d8b-41c8-a9c9-c66c0543eaa9")
 		)
 		(fp_line
 			(start 3.5 7.49)
@@ -1839,6 +1873,16 @@
 			(uuid "88a59ff9-b21f-48ea-953b-bd4e968b0c33")
 		)
 		(pad "SHUNT" thru_hole oval
+			(at -5.8 -3.25 180)
+			(size 2.025 4.05)
+			(drill oval 0.76 3.05)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f2745605-6216-4ca1-af6e-2dc79ded2704")
+		)
+		(pad "SHUNT" thru_hole oval
 			(at 3.8 -3.25 180)
 			(size 2.025 4.05)
 			(drill oval 0.76 3.05)
@@ -1863,7 +1907,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/My_Library/3d Models/RAPC722X.step"
 			(offset
-				(xyz -1 -7.5 -0.5)
+				(xyz -1 -7.4 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12561,28 +12605,12 @@
 		(uuid "afe4bb38-f341-4894-8d20-bca88518b9fd")
 	)
 	(segment
-		(start 148.59 78.2492)
-		(end 145.141162 81.698038)
+		(start 145.415 81.4242)
+		(end 145.415 88.4332)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(DC_IN1-PadSLEEVE)")
-		(uuid "05604c47-e69b-43db-9c5a-7421d3f8f8b0")
-	)
-	(segment
-		(start 145.141162 81.698038)
-		(end 145.141162 88.159362)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(DC_IN1-PadSLEEVE)")
-		(uuid "23463663-6d9b-484d-a629-f8f521a5f4da")
-	)
-	(segment
-		(start 148.59 76.935)
-		(end 148.59 78.2492)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(DC_IN1-PadSLEEVE)")
-		(uuid "af11bffb-67d7-4ef7-b002-79d1b0002625")
+		(uuid "144648c0-cbe7-4da4-886c-b40bf92a90f4")
 	)
 	(segment
 		(start 147.3201 90.3383)
@@ -12590,15 +12618,31 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(DC_IN1-PadSLEEVE)")
-		(uuid "b09ad7ff-0d40-4b87-bb32-1f0589e1e1dd")
+		(uuid "3a998012-3649-4ca5-80bd-7a70e6262e81")
 	)
 	(segment
-		(start 145.141162 88.159362)
+		(start 148.59 78.2492)
+		(end 145.415 81.4242)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DC_IN1-PadSLEEVE)")
+		(uuid "8c76e3b0-535e-4898-a0b4-28006321444e")
+	)
+	(segment
+		(start 148.59 76.935)
+		(end 148.59 78.2492)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DC_IN1-PadSLEEVE)")
+		(uuid "92e03e54-a6ba-4dea-aef8-13f5c73478fe")
+	)
+	(segment
+		(start 145.415 88.4332)
 		(end 147.3201 90.3383)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(DC_IN1-PadSLEEVE)")
-		(uuid "d79e00da-d5e5-4a74-aa39-7b320d742c93")
+		(uuid "93daac82-793c-4c03-a5ca-b7b8311be755")
 	)
 	(segment
 		(start 157.7674 120.9826)
